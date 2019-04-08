@@ -13,14 +13,14 @@ Getting started
 
   * Check/Set configuration for your channel using `IQRF Gateway Webapp`_
 
-.. _`IQRF Gateway Daemon`: https://docs.iqrf.org/iqrf-gateway-daemon/install.html
-.. _`IQRF Gateway Webapp`: https://docs.iqrf.org/iqrf-gateway-webapp/install.html
-.. _`Configure`: https://docs.iqrf.org/iqrf-gateway-daemon/configure.html
+.. _`IQRF Gateway Daemon`: daemon-install.html
+.. _`IQRF Gateway Webapp`: webapp-install.html
+.. _`Configure`: configure.html
 .. _`MQ`: https://en.wikipedia.org/wiki/Message_queue
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
-.. _`MQTT`: https://cs.wikipedia.org/wiki/MQTT
-.. _`Learn`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html
-.. _`Scheduler`: https://docs.iqrf.org/iqrf-gateway-daemon/scheduler.html
+.. _`MQTT`: https://en.wikipedia.org/wiki/MQTT
+.. _`Learn`: api.html
+.. _`Scheduler`: scheduler.html
 
 Next steps
 ----------
@@ -32,8 +32,8 @@ Next steps
 * If you use IQRF standard devices such as Sensor, Binary output or Light in your network, check `JSON API for Standard`_    
 * Parse `JSON API`_ responses coming from the network
 
-.. _`JSON API`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html
-.. _`JSON API for Standard`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html#iqrf-standard
+.. _`JSON API`: api.html
+.. _`JSON API for Standard`: api.html#iqrf-standard
 
 Reference applications
 ----------------------

@@ -34,7 +34,7 @@ Stretch 9
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/debian stretch stable" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/debian stretch stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 - Testing (Beta)
@@ -43,7 +43,7 @@ Stretch 9
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/debian stretch testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/debian stretch testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 For Ubuntu
@@ -57,7 +57,7 @@ Xenial 16.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu/xenial xenial stable" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/ubuntu/xenial xenial stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 - Testing (Beta)
@@ -66,7 +66,7 @@ Xenial 16.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/xenial xenial testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/ubuntu/xenial xenial testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 Bionic 18.04
@@ -77,7 +77,7 @@ Bionic 18.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu/bionic bionic stable" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/ubuntu/bionic bionic stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 - Testing (Beta)
@@ -86,7 +86,7 @@ Bionic 18.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/bionic bionic testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/ubuntu/bionic bionic testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 Stop and disable the daemon v1

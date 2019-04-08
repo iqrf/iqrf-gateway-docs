@@ -75,12 +75,12 @@ Why v2
     IQRF GWD architecture
 
 .. _`Shape framework`: https://github.com/logimic/shape
-.. _`IQRF Standard`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html#iqrf-standard
-.. _`IQMESH Services`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html#iqmesh-network
-.. _`IQRF Generic`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html#iqrf-generic
+.. _`IQRF Standard`: api.html#iqrf-standard
+.. _`IQMESH Services`: api.html#iqmesh-network
+.. _`IQRF Generic`: api.html#iqrf-generic
 .. _`IQRF Gateway Webapp`: https://docs.iqrf.org/iqrf-gateway-webapp
 .. _`WebSocket`: https://en.wikipedia.org/wiki/WebSocket
 .. _`UniPi Neuron IQRF`: https://www.unipi.technology/cs/neuron-s103-iqrf-p139
 .. _`examples and reference apps`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples
-.. _`support`: https://docs.iqrf.org/iqrf-gateway-daemon/support.html
+.. _`support`: support.html
 .. _`issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues

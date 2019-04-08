@@ -1,5 +1,5 @@
 **********************************
-How to install IQRF Gateway Webapp
+How to install the webapp
 **********************************
 
 Add PHP 7.2 repository
@@ -53,7 +53,7 @@ For Debian and UbiLinux
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/debian stretch testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/debian stretch testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 For Ubuntu
@@ -65,7 +65,7 @@ Xenial 16.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/xenial xenial testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/ubuntu/xenial xenial testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 Bionic 18.04
@@ -74,12 +74,8 @@ Bionic 18.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/bionic bionic testing" | sudo tee -a /etc/apt/sources.list
+	echo "deb https://repos.iqrf.org/testing/ubuntu/bionic bionic testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
-
-Install IQRF Gateway Daemon
-###########################
-Follow the `IQRF Gateway Daemon's installation guide <https://docs.iqrf.org/iqrf-gateway-daemon/install.html>`_.
 
 Install IQRF Gateway webapp
 ###########################

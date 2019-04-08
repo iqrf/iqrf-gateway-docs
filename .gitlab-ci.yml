@@ -1,0 +1,27 @@
+image: iqrfsdk/iqrf-gateway-webapp:tests-buster
+
+stages:
+  - deploy-docs
+
+.ssh_template: &ssh_template
+  before_script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  tags:
+    - linux
+
+deploy-docs:
+  stage: deploy-docs
+  environment:
+    name: docs
+    url: https://docs.iqrf.org/iqrf-gateway/
+  only:
+    - master
+  script:
+    - make html
+    - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/
+  <<: *ssh_template

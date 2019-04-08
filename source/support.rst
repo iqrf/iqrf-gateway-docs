@@ -10,6 +10,7 @@ Public repositories
 
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc
 
 Public development
 ------------------
@@ -26,18 +27,17 @@ Public development
 
 * Documentation 
   
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/docs
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/docs
-  * https://docs.iqrf.org/iqrf-gateway-daemon
-  * https://docs.iqrf.org/iqrf-gateway-webapp
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc
+  * https://docs.iqrf.org/iqrf-gateway
 
 Report bugs
 -----------
 
-* Create new issue
+* Create a new issue
   
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/issues
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc/issues
 
 * Describe the issue and attach logs from the gateway
 * Logs can be downloaded from the gateway via http://IQRF-Gateway-Webapp-IP/gateway/info/ - Download diagnostics  
