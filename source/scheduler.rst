@@ -77,7 +77,7 @@ v2.1.0
       "clientId": "SchedulerMessaging",
       "timeSpec": {
           "cronTime": [
-            "1",
+            "0",
             "*/1",
             "*",
             "*",
@@ -115,7 +115,7 @@ v2.1.0
       "clientId": "SchedulerMessaging",
       "timeSpec": {
           "cronTime": [
-            "2",
+            "1",
             "*/1",
             "*",
             "*",
