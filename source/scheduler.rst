@@ -76,7 +76,15 @@ v2.1.0
       "taskId": 1,
       "clientId": "SchedulerMessaging",
       "timeSpec": {
-          "cronTime": "0 */1 * * * * *",
+          "cronTime": [
+            "1",
+            "*/1",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*"
+          ],
           "exactTime": false,
           "periodic": false,
           "period": 0,
@@ -106,7 +114,15 @@ v2.1.0
       "taskId": 2,
       "clientId": "SchedulerMessaging",
       "timeSpec": {
-          "cronTime": "0 */2 * * * * *",
+          "cronTime": [
+            "2",
+            "*/1",
+            "*",
+            "*",
+            "*",
+            "*",
+            "*"
+          ],
           "exactTime": false,
           "periodic": false,
           "period": 0,
