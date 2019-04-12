@@ -15,7 +15,7 @@ DPA protocol
 
 IQRF Interoperability Standard
 ------------------------------
-* https://www.iqrfalliance.org/techDocs/
+* https://www.iqrfalliance.org/iqrf-interoperability/
 
 IQRF Repository
 ---------------
