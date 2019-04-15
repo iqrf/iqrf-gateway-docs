@@ -50,7 +50,7 @@ IQRF Standard
 
 Standard messages has been design according to `IQRF Standard`_ and `DPA protocol`_.
 
-.. _`IQRF Standard`: https://www.iqrfalliance.org/techDocs
+.. _`IQRF Standard`: https://www.iqrfalliance.org/iqrf-interoperability/
 .. _`DPA protocol`: https://www.iqrf.org/DpaTechGuide
 
 Binaryoutput
