@@ -14,6 +14,7 @@ Contents:
    :maxdepth: 2
 
    news
+   roadmap
    introduction
    start
    daemon-install
