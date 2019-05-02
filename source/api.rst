@@ -2,8 +2,8 @@ Application Programming Interface
 =================================
 
 JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels. Messages has been tested with OS v4.02D and 
-DPA v3.02 at TR-7xD and higher. Check with `DPA release`_ pages the relevance of particular DPA commands.
-Some DPA commands were updated/added/removed in further versions of DPA.
+DPA v3.02 at TR-7xD and higher. Check with `DPA release`_ pages the relevance of particular DPA cmds. Some DPA
+cmds were updated/added/removed in further versions of DPA.
 
 IQRF Gateway Daemon API categories:
 
@@ -50,7 +50,7 @@ IQRF Standard
 
 Standard messages has been design according to `IQRF Standard`_ and `DPA protocol`_.
 
-.. _`IQRF Standard`: https://www.iqrfalliance.org/iqrf-interoperability/
+.. _`IQRF Standard`: https://www.iqrfalliance.org/techDocs
 .. _`DPA protocol`: https://www.iqrf.org/DpaTechGuide
 
 Binaryoutput
@@ -725,10 +725,6 @@ Daemon Scheduler
 - `RemoveTask request v1-0-0`_ and `example`__
 - `RemoveTask response v1-0-0`_ and `example`__
 
-**Since v2.1.0**
-
-- `AddTask request v1-1-0`_ and `example`__
-
 .. _`AddTask request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_AddTask-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_AddTask-request-1-0-0-example.json
 .. _`AddTask response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_AddTask-response-1-0-0.json
@@ -753,8 +749,6 @@ Daemon Scheduler
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_RemoveTask-request-1-0-0-example.json
 .. _`RemoveTask response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_RemoveTask-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_RemoveTask-response-1-0-0-example.json
-.. _`AddTask request v1-1-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_AddTask-request-1-1-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_AddTask-request-1-1-0-example.json
 
 Daemon Metadata
 ---------------

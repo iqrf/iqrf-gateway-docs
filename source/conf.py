@@ -26,7 +26,7 @@ author = 'IQRF Tech s.r.o.'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v1.0.0-beta'
+release = 'v2.1.0-beta'
 
 
 # -- General configuration ---------------------------------------------------
