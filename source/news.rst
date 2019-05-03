@@ -4,6 +4,26 @@ News
 Releases
 --------
 
+iqrf-gateway-daemon (2.1.0) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Michal Konopa ]
+ [ Vasek Hanak ]
+ [ Dusan Machut ]
+ [ Roman Ondracek ]
+ [ Rostislav Spinar ]
+
+ * DPAv40x support
+ * Metadata API introduced
+ * IQMESH service for RemoveBond
+ * Scheduler API enhanced and persistent
+ * Deb packages for Armel arch
+ * Docker support
+ * Source code released
+ * Many fixes and improvements 
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 3 May 2019 13:30:00 +0000
+
 iqrf-gateway-daemon (2.0.0) RELEASED; urgency=medium
 
  [ Frantisek Mikulu ]

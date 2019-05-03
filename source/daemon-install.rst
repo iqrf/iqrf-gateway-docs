@@ -10,18 +10,20 @@ Stable
 
 `https://repos.iqrf.org`_
 
--   iqrf-gateway-daemon_2.0.0_amd64.deb
--   iqrf-gateway-daemon_2.0.0_armhf.deb
--   iqrf-gateway-daemon_2.0.0_arm64.deb
+-   iqrf-gateway-daemon_2.1.0_amd64.deb
+-   iqrf-gateway-daemon_2.1.0_armhf.deb
+-   iqrf-gateway-daemon_2.1.0_armel.deb
+-   iqrf-gateway-daemon_2.1.0_arm64.deb
 
 Testing (Beta)
 --------------
 
 `https://repos.iqrf.org/testing`_
 
--   iqrf-gateway-daemon_2.1.0-*_amd64.deb
--   iqrf-gateway-daemon_2.1.0-*_armhf.deb
--   iqrf-gateway-daemon_2.1.0-*_arm64.deb
+-   iqrf-gateway-daemon_2.2.0-*_amd64.deb
+-   iqrf-gateway-daemon_2.2.0-*_armhf.deb
+-   iqrf-gateway-daemon_2.2.0-*_armel.deb
+-   iqrf-gateway-daemon_2.2.0-*_arm64.deb
 
 For Debian, UbiLinux, Raspbian, Armbian
 ---------------------------------------

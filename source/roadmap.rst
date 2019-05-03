@@ -7,15 +7,6 @@ Releases
 iqrf-gateway-daemon
 +++++++++++++++++++
 
-v2.1.x (Q2/2019)
-
- * Added DPAv40x support 
- * Metadata API introduced
- * IQMESH service for RemoveBond
- * Scheduler API enhanced and persistent
- * Docker support
- * Source code released
-
 v2.2.x (Q3/2019)
 
  * Adding AutoNetwork service support
