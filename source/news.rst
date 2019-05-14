@@ -4,6 +4,25 @@ News
 Releases
 --------
 
+iqrf-gateway-daemon (2.1.2) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Removing Autonetwork service from API and CFG
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 12 May 2019 21:00:00 +0000
+
+iqrf-gateway-daemon (2.1.1) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Roman Ondracek ]
+ [ Rostislav Spinar ]
+
+ * IQRF UART receive handling improved
+ * IQRF repository cache updated
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Wed, 8 May 2019 23:30:00 +0000
+
 iqrf-gateway-daemon (2.1.0) RELEASED; urgency=medium
 
  [ Frantisek Mikulu ]
