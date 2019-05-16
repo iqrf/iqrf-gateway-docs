@@ -173,7 +173,7 @@ Scheduler can be also configured via `Scheduler API`_. **Configuration via API i
 
 There are examples in `C# test app`_.
 
-.. _`JSON API`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html
+.. _`JSON API`: https://docs.iqrf.org/iqrf-gateway/api.html
 .. _`Cron format`: https://en.wikipedia.org/wiki/Cron
-.. _`Scheduler API`: https://docs.iqrf.org/iqrf-gateway-daemon/api.html#daemon-scheduler
+.. _`Scheduler API`: https://docs.iqrf.org/iqrf-gateway/api.html#daemon-scheduler
 .. _`C# test app`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/c#
