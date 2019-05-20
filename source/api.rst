@@ -623,9 +623,6 @@ IQRF Bonding
 - `BondNodeLocal response v1-0-0`_ and `example`__
 - `SmartConnect request v1-0-0`_ and `example`__
 - `SmartConnect response v1-0-0`_ and `example`__
-
-**Since v2.1.0**
-
 - `RemoveBond request v1-0-0`_ and `example`__
 - `RemoveBond response v1-0-0`_ and `example`__
 
@@ -677,9 +674,6 @@ Daemon Management
 - `Exit response v1-0-0`_ and `example`__
 - `Mode request v1-0-0`_ and `example`__
 - `Mode response v1-0-0`_ and `example`__
-
-**Since v2.1.0**
-
 - `Version request v1-0-0`_ and `example`__
 - `Version response v1-0-0`_ and `example`__
 
@@ -699,8 +693,6 @@ Daemon Management
 Daemon Configuration
 --------------------
 
-**Since v2.1.0**
-
 - `Component request v1-0-0`_ and `example`__
 - `Component response v1-0-0`_ and `example`__
 
@@ -718,8 +710,6 @@ Daemon Scheduler
 - `GetTask response v1-0-0`_ and `example`__
 - `List request v1-0-0`_ and `example`__
 - `List response v1-0-0`_ and `example`__
-- `PeriodicTask request v1-0-0`_ and `example`__
-- `PeriodicTask response v1-0-0`_ and `example`__
 - `RemoveAll request v1-0-0`_ and `example`__
 - `RemoveAll response v1-0-0`_ and `example`__
 - `RemoveTask request v1-0-0`_ and `example`__
@@ -737,10 +727,6 @@ Daemon Scheduler
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_List-request-1-0-0-example.json
 .. _`List response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_List-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_List-response-1-0-0-example.json
-.. _`PeriodicTask request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_PeriodicTask-request-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_PeriodicTask-request-1-0-0-example.json
-.. _`PeriodicTask response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_PeriodicTask-response-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_PeriodicTask-response-1-0-0-example.json
 .. _`RemoveAll request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_RemoveAll-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngScheduler_RemoveAll-request-1-0-0-example.json
 .. _`RemoveAll response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngScheduler_RemoveAll-response-1-0-0.json
@@ -752,8 +738,6 @@ Daemon Scheduler
 
 Daemon Metadata
 ---------------
-
-**Since v2.1.0**
 
 - `SetMetaData request v1-0-0`_ and `example`__
 - `SetMetaData response v1-0-0`_ and `example`__
