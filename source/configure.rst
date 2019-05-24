@@ -73,6 +73,12 @@ Folder /etc/iqrf-gateway-daemon:
   - Remote port (55000)
   - Local port (55300)
 
+- iqrf__IdeCounterpart.json
+
+  - **Tip: check/configure your GW name and mode**
+  - Identification name of the GW (iqrf-gateway-daemon)
+  - Set daemon to start in operMode (operational/service/forwarding)  
+
 - iqrf__WebsocketMessaging.json
 
   - **Tip: check/configure your Websocket msgs**
@@ -98,8 +104,6 @@ Folder /etc/iqrf-gateway-daemon:
   - Verbosity (INF)
 
 Folder /var/cache/iqrf-gateway-daemon/scheduler:
-
-- Tasks.json
 
   - **Tip: configure your regural DPA tasks**
   - See `Scheduler documentation`_
