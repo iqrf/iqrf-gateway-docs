@@ -12,7 +12,7 @@ v2.2.x (Q3/2019)
  * Adding lite DB to store network and devices information 
  * Adding AutoNetwork service support
  * Adding buffer when IP connectivity is down 
- * Adding IQMESH service for FRC and Polling
+ * Adding IQMESH service for FRC together with metadata
  * Adding IQRF SPI uploader 
  * Improving handling of JSON timestamps
  * Improving scheduler API for multitask
@@ -21,8 +21,8 @@ v2.3.x (Q4/2019)
 
  * Adding full support of JS drivers from IQRF repository
  * Adding security to Websocket channel
- * Adding IQMESH service for network topology and std. devices discovery 
  * Adding IQMESH service for Backup/Restore
+ * Adding IQMESH service for network topology and standard devices discovery 
  * Improving daemon logging
 
 iqrf-gateway-webapp
