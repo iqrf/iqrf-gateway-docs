@@ -1,0 +1,52 @@
+@startuml
+title Iqrf Daemon Components with respect to IQRF Repository
+
+skinparam component {
+  FontSize 13
+  BackgroundColor<<Apache>> Red
+  BorderColor<<Apache>> #FF6655
+  FontName Courier
+  FontStyle bold
+  BorderColor black
+  BackgroundColor gold
+  ArrowFontStyle italic
+  ArrowFontName Arial
+  ArrowColor #FF6655
+  ArrowFontColor #777777
+}
+
+skinparam note {
+  FontSize 9
+  FontName Arial
+  BorderColor Gray
+  BackgroundColor white
+  FontStyle italic
+  ArrowFontName Arial
+}
+
+
+component [JsonDpaApiIqrfStandard] as C35
+component [LocalBondService] as C34
+component [SmartConnectService] as C36
+component [CppRestService] as C50
+component [JsCache] as C41
+component [Scheduler] as C60
+
+
+C41 -d- I41
+C50 -d- I50
+
+C34 .u.> I41
+C35 .u.> I41
+C36 .u.> I41
+
+
+C41 .l.> I50
+C41 .r.> I60
+C60 -- I60
+
+interface "IJsCacheService" as I41
+interface "shape::IRestApiService" as I50
+interface "ISchedulerService" as I60
+
+@enduml

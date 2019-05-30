@@ -1,0 +1,49 @@
+@startuml
+title Component Diagram with respect to IDE4
+
+skinparam component {
+  FontSize 13
+  BackgroundColor<<Apache>> Red
+  BorderColor<<Apache>> #FF6655
+  FontName Courier
+  FontStyle bold
+  BorderColor black
+  BackgroundColor gold
+  ArrowFontStyle italic
+  ArrowFontName Arial
+  ArrowColor #FF6655
+  ArrowFontColor #777777
+}
+
+skinparam note {
+  FontSize 9
+  FontName Arial
+  BorderColor Gray
+  BackgroundColor white
+  FontStyle italic
+  ArrowFontName Arial
+}
+
+
+interface "IIqrfChannelService" as I1
+interface "IUdpMessagingService" as I2
+interface "IUdpConnectorService" as I3
+
+component [Ide4Counterpart] as C1
+component [UdpMessaging] as C2
+component [IqrfCdc] as C3
+component [IqrfSpi] as C4
+component [JsonMngApi] as C5
+
+
+C1 -- I3
+C2 -- I2
+C3 -u- I1
+C4 -u- I1
+
+C1 .d.> I1
+C1 .d.> I2
+C5 .d.> I3
+
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+title Iqrf Daemon Components with respect to IQRF Interface
+
+skinparam component {
+  FontSize 13
+  BackgroundColor<<Apache>> Red
+  BorderColor<<Apache>> #FF6655
+  FontName Courier
+  FontStyle bold
+  BorderColor black
+  BackgroundColor gold
+  ArrowFontStyle italic
+  ArrowFontName Arial
+  ArrowColor #FF6655
+  ArrowFontColor #777777
+}
+
+skinparam note {
+  FontSize 9
+  FontName Arial
+  BorderColor Gray
+  BackgroundColor white
+  FontStyle italic
+  ArrowFontName Arial
+}
+
+
+component [BaseService] as C30
+component [JsonDpaApiIqrfStandard] as C31
+component [JsonDpaApiRaw] as C32
+component [LocalBondService] as C33
+component [OtaUploadService] as C34
+component [ReadTrConfigService] as C35
+component [SmartConnectService] as C36
+component [WriteConfigService] as C37
+component [Ide4Counterpart] as C38
+
+
+component [IqrfDpa] as C40
+
+component [IqrfCdc] as C50
+component [IqrfSpi] as C51
+
+C40 -u- I40
+C50 -u- I50
+C51 -u- I50
+
+C30 .l.> I40
+C31 .l.> I40
+C32 .d.> I40
+C33 .d.> I40
+C34 .d.> I40
+C35 .d.> I40
+C36 .r.> I40
+C37 .r.> I40
+
+C40 .d.> I50
+
+C38 .r.> I50
+
+
+interface "IIqrfDpaService" as I40
+interface "IIqrfChannelService" as I50
+
+@enduml
