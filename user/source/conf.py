@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'IQRF Gateway'
+project = 'IQRF Gateway User'
 copyright = '2019, IQRF Tech s.r.o.'
 author = 'IQRF Tech s.r.o.'
 

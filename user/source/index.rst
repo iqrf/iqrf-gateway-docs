@@ -1,5 +1,5 @@
-Welcome to IQRF Gateway's documentation!
-========================================
+Welcome to IQRF Gateway user's documentation!
+=============================================
 
 Open-source components for building IQRF Gateway.
 
