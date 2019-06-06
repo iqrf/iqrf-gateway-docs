@@ -32,7 +32,8 @@ Public development
 * Documentation 
   
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-docs
-  * https://docs.iqrf.org/iqrf-gateway
+  * https://docs.iqrf.org/iqrf-gateway/user
+  * https://docs.iqrf.org/iqrf-gateway/developer
 
 Report bugs
 -----------
