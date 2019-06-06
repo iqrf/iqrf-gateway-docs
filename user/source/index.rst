@@ -24,7 +24,7 @@ Contents:
    api
    scheduler
    docker
-   support
+   gitlab
    links
 
 Indices and tables

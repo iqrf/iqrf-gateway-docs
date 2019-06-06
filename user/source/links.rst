@@ -21,6 +21,7 @@ IQRF Repository
 ---------------
 * https://www.iqrf.org/technology/iqrf-repository 
 * https://repository.iqrfalliance.org/doc/
+* https://gitlab.iqrf.org/open-source/iqrf-repository
 
 IoT Starter Kit
 ---------------

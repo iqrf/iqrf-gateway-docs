@@ -1,5 +1,5 @@
-Support
-=======
+Gitlab
+======
 
 IQRF Gateway team strongly believes in open source software and collaboration.
 
@@ -10,7 +10,7 @@ Public repositories
 
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-docs
 
 Public development
 ------------------
@@ -27,7 +27,7 @@ Public development
 
 * Documentation 
   
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-docs
   * https://docs.iqrf.org/iqrf-gateway
 
 Report bugs
@@ -37,7 +37,7 @@ Report bugs
   
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/issues
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-doc/issues
+  * https://gitlab.iqrf.org/open-source/iqrf-gateway-docs/issues
 
 * Describe the issue and attach logs from the gateway
 * Logs can be downloaded from the gateway via http://IQRF-Gateway-Webapp-IP/gateway/info/ - Download diagnostics  
