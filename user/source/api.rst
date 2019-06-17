@@ -122,6 +122,23 @@ Sensor
 .. _`Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfSensor_Frc-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfSensor_Frc-response-1-0-0-example.json
 
+DALI
+++++
+
+- `SendCommands request v1-0-0`_ and `example`__
+- `SendCommands response v1-0-0`_ and `example`__
+- `SendCommandsAsync request v1-0-0`_ and `example`__
+- `SendCommandsAsync response v1-0-0`_ and `example`__
+
+.. _`SendCommands request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDALI_SendCommands-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDALI_SendCommands-request-1-0-0-example.json
+.. _`SendCommands response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDALI_SendCommands-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDALI_SendCommands-response-1-0-0-example.json
+.. _`SendCommandsAsync request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDALI_SendCommandsAsync-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDALI_SendCommandsAsync-request-1-0-0-example.json
+.. _`SendCommandsAsync response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDALI_SendCommandsAsync-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDALI_SendCommandsAsync-response-1-0-0-example.json
+
 Embed Explore
 +++++++++++++
 
