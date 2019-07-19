@@ -5,28 +5,49 @@ How to install the daemon
 Add IQRF Gateway repository
 ###########################
 
+`https://repos.iqrf.org`_
+
 Stable
 ------
 
-`https://repos.iqrf.org`_
+-   iqrf-gateway-daemon_2.1.*_amd64.deb
+-   iqrf-gateway-daemon_2.1.*_i386.deb
+-   iqrf-gateway-daemon_2.1.*_arm64.deb
+-   iqrf-gateway-daemon_2.1.*_armhf.deb
+-   iqrf-gateway-daemon_2.1.*_armel.deb
 
--   iqrf-gateway-daemon_2.1.0_amd64.deb
--   iqrf-gateway-daemon_2.1.0_armhf.deb
--   iqrf-gateway-daemon_2.1.0_armel.deb
--   iqrf-gateway-daemon_2.1.0_arm64.deb
 
 Testing (Beta)
 --------------
 
-`https://repos.iqrf.org/testing`_
-
 -   iqrf-gateway-daemon_2.2.0-*_amd64.deb
+-   iqrf-gateway-daemon_2.2.0-*_i386.deb
+-   iqrf-gateway-daemon_2.2.0-*_arm64.deb
 -   iqrf-gateway-daemon_2.2.0-*_armhf.deb
 -   iqrf-gateway-daemon_2.2.0-*_armel.deb
--   iqrf-gateway-daemon_2.2.0-*_arm64.deb
 
 For Debian, UbiLinux, Raspbian, Armbian
 ---------------------------------------
+
+Buster 10
++++++++++
+- Stable
+
+.. code-block:: bash
+
+	sudo apt-get install dirmngr apt-transport-https
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
+	echo "deb https://repos.iqrf.org/debian buster stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	sudo apt-get update
+
+- Testing (Beta)
+
+.. code-block:: bash
+
+	sudo apt-get install dirmngr apt-transport-https
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
+	echo "deb https://repos.iqrf.org/debian buster stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	sudo apt-get update
 
 Stretch 9
 +++++++++
@@ -45,31 +66,11 @@ Stretch 9
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/debian stretch testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	echo "deb https://repos.iqrf.org/debian stretch stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 For Ubuntu
 ----------
-
-Xenial 16.04
-++++++++++++
-- Stable
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu/xenial xenial stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-- Testing (Beta)
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/xenial xenial testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
 
 Bionic 18.04
 ++++++++++++
@@ -79,7 +80,7 @@ Bionic 18.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu/bionic bionic stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	echo "deb https://repos.iqrf.org/ubuntu bionic stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 - Testing (Beta)
@@ -88,7 +89,27 @@ Bionic 18.04
 
 	sudo apt-get install dirmngr apt-transport-https
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/testing/ubuntu/bionic bionic testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	echo "deb https://repos.iqrf.org/ubuntu bionic stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	sudo apt-get update
+
+Xenial 16.04
+++++++++++++
+- Stable
+
+.. code-block:: bash
+
+	sudo apt-get install dirmngr apt-transport-https
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
+	echo "deb https://repos.iqrf.org/ubuntu xenial stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
+	sudo apt-get update
+
+- Testing (Beta)
+
+.. code-block:: bash
+
+	sudo apt-get install dirmngr apt-transport-https
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
+	echo "deb https://repos.iqrf.org/ubuntu xenial stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
 	sudo apt-get update
 
 Stop and disable the daemon v1
@@ -121,7 +142,7 @@ Update from beta release
 .. code-block:: bash
 
 	sudo apt-get purge iqrf-gateway-daemon
-	sudo apt-get install iqrf-gateway-daemon
+	sudo apt-get install iqrf-gateway-daemon=2.1.*
 
 Check the status of the daemon
 ##############################
@@ -134,9 +155,9 @@ Direct links
 
 Packages and tarballs for download.
 
+- https://dl.iqrf.org/iqrf-gateway-daemon/buster
 - https://dl.iqrf.org/iqrf-gateway-daemon/stretch
 - https://dl.iqrf.org/iqrf-gateway-daemon/bionic
 - https://dl.iqrf.org/iqrf-gateway-daemon/xenial
 
 .. _`https://repos.iqrf.org`: https://repos.iqrf.org
-.. _`https://repos.iqrf.org/testing`: https://repos.iqrf.org/testing
