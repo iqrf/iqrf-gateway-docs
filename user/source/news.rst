@@ -4,6 +4,24 @@ News
 Releases
 --------
 
+iqrf-gateway-daemon (2.1.6) RELEASED; urgency=medium
+
+ * GitLab CI: fix daemon version, fix debug package
+ * GitLab CI: fix dependencies of the package for Debian Buster i386
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 19 Jul 2019 20:11:34 +0200
+
+iqrf-gateway-daemon (2.1.5) RELEASED; urgency=medium
+
+ * IQRF Repository: rewrite updater to Python3, update cache
+ * GitLab CI: update package creation
+ * Debian packaging: update name of paho.mqtt.c package
+ * GitLab CI: fix build of temporary debug packages
+ * GitLab CI: fix build of package for Debian Buster
+ * GitLab CI: do not clean DAEMON_VERSION variable from the environment for Debian packaging
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 18 Jul 2019 23:51:47 +0200
+
 iqrf-gateway-daemon (2.1.4) RELEASED; urgency=medium
 
  [ Rostislav Spinar ]
