@@ -6,12 +6,16 @@ Releases
 
 iqrf-gateway-daemon (2.1.6) RELEASED; urgency=medium
 
+ [ Roman Ondracek ]
+
  * GitLab CI: fix daemon version, fix debug package
  * GitLab CI: fix dependencies of the package for Debian Buster i386
 
  -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 19 Jul 2019 20:11:34 +0200
 
 iqrf-gateway-daemon (2.1.5) RELEASED; urgency=medium
+
+ [ Roman Ondracek ]
 
  * IQRF Repository: rewrite updater to Python3, update cache
  * GitLab CI: update package creation
