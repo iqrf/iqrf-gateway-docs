@@ -1,17 +1,14 @@
 Beta Application Programming Interface
 ======================================
 
-v2.2.0-beta
------------
-
-Only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
+v2.2.0-beta - only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
 
 .. _`MQ`: https://en.wikipedia.org/wiki/Message_queue
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
 .. _`MQTT`: https://cs.wikipedia.org/wiki/MQTT
 
 IQRF Standard
-+++++++++++++
+-------------
 
 Standard messages has been design according to `IQRF Standard`_ and `DPA protocol`_.
 
@@ -19,7 +16,7 @@ Standard messages has been design according to `IQRF Standard`_ and `DPA protoco
 .. _`DPA protocol`: https://www.iqrf.org/DpaTechGuide
 
 Binaryoutput
-------------
+++++++++++++
 
 Changes in JSON request item naming.
 
@@ -32,7 +29,7 @@ Changes in JSON request item naming.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfBinaryoutput_SetOutput-response-1-0-0-example.json
 
 Sensor
-------
+++++++
 
 Extending FRC for NADR and metadata information.
 
@@ -45,7 +42,7 @@ Extending FRC for NADR and metadata information.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfSensor_Frc-response-1-0-0-example.json
 
 Dali
-----
+++++
 
 Support for new IQRF standard.
 
@@ -95,7 +92,7 @@ Fixes and changes related to DPA 4.10 (todo).
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_FactorySettings-response-1-0-0-example.json
 
 IQMESH Network
-++++++++++++++
+--------------
 
 Services that ease the task of working with IQMESH network. They are composed of more then single DPA transaction 
 (req-cnf-rsp) in most of the cases. They are also integrating information from `IQRF Repository`_. They are 
@@ -105,7 +102,7 @@ inspired by the services available in `IQRF IDE`_ - IQMESH Network Manager.
 .. _`IQRF IDE`: https://iqrf.org/technology/iqrf-ide
 
 IQRF Bonding
-------------
+++++++++++++
 
 Fixes and improvements.
 
@@ -124,7 +121,7 @@ Fixes and improvements.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_AutoNetwork-response-1-0-0-example.json
 
 IQRF Enumeration
-----------------
+++++++++++++++++
 
 Fixes and changes related to DPA 4.10 (todo).
 
@@ -137,7 +134,7 @@ Fixes and changes related to DPA 4.10 (todo).
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_EnumerateDevice-response-1-0-0-example.json
 
 IQRF Configuration
-------------------
+++++++++++++++++++
 
 Changes related to DPA 4.10 (todo).
 
@@ -156,7 +153,7 @@ Changes related to DPA 4.10 (todo).
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_WriteTrConf-response-1-0-0-example.json
 
 Daemon Management
-+++++++++++++++++
+-----------------
 
 IQRF SPI upload for IQD-GW-01 or KON-RASP-02 devices.
 
@@ -169,7 +166,7 @@ IQRF SPI upload for IQD-GW-01 or KON-RASP-02 devices.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Upload-response-1-0-0-example.json
 
 Daemon Information
-++++++++++++++++++
+------------------
 
 The commands to access daemon lite DB.
 
@@ -194,7 +191,7 @@ The commands to access daemon lite DB.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetBinaryOutputs-response-1-0-0-example.json
 
 Daemon Notification
-+++++++++++++++++++
+-------------------
 
 Daemon state notifications related to interfaces, modes via websocket channel on port 1438.
 
