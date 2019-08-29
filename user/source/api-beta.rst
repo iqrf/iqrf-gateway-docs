@@ -1,7 +1,7 @@
 Beta Application Programming Interface
 ======================================
 
-v2.2.0-beta - only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
+**v2.2.0-beta** - only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
 
 .. _`MQ`: https://en.wikipedia.org/wiki/Message_queue
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
@@ -14,19 +14,6 @@ Standard messages has been design according to `IQRF Standard`_ and `DPA protoco
 
 .. _`IQRF Standard`: https://www.iqrfalliance.org/techDocs
 .. _`DPA protocol`: https://www.iqrf.org/DpaTechGuide
-
-Binaryoutput
-++++++++++++
-
-Changes in JSON request item naming.
-
-- `SetOutput request v1-0-0`_ and `example`__
-- `SetOutput response v1-0-0`_ and `example`__
-
-.. _`SetOutput request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfBinaryoutput_SetOutput-request-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfBinaryoutput_SetOutput-request-1-0-0-example.json
-.. _`SetOutput response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfBinaryoutput_SetOutput-response-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfBinaryoutput_SetOutput-response-1-0-0-example.json
 
 Sensor
 ++++++
