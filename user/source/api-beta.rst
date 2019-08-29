@@ -2,9 +2,9 @@ Beta Application Programming Interface
 ======================================
 
 v2.2.0-beta
------------
++++++++++++
 
-Only added or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
+Only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
 
 .. _`MQ`: https://en.wikipedia.org/wiki/Message_queue
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
@@ -36,12 +36,12 @@ Sensor
 
 Extending FRC for NADR and metadata information.
 
-- `Frc request v1-0-0`_ and `example`__
-- `Frc response v1-0-0`_ and `example`__
+- `Sensor Frc request v1-0-0`_ and `example`__
+- `Sensor Frc response v1-0-0`_ and `example`__
 
-.. _`Frc request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfSensor_Frc-request-1-0-0.json
+.. _`Sensor Frc request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfSensor_Frc-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfSensor_Frc-request-1-0-0-example.json
-.. _`Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfSensor_Frc-response-1-0-0.json
+.. _`Sensor Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfSensor_Frc-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfSensor_Frc-response-1-0-0-example.json
 
 Dali
@@ -53,8 +53,8 @@ Support for new IQRF standard.
 - `SendCommands response v1-0-0`_ and `example`__
 - `SendCommandsAsync request v1-0-0`_ and `example`__
 - `SendCommandsAsync response v1-0-0`_ and `example`__
-- `Frc request v1-0-0`_ and `example`__
-- `Frc response v1-0-0`_ and `example`__
+- `Dali Frc request v1-0-0`_ and `example`__
+- `Dali Frc response v1-0-0`_ and `example`__
 
 .. _`SendCommands request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommands-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommands-request-1-0-0-example.json
@@ -64,9 +64,9 @@ Support for new IQRF standard.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommandsAsync-request-1-0-0-example.json
 .. _`SendCommandsAsync response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommandsAsync-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommandsAsync-response-1-0-0-example.json
-.. _`Frc request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-request-1-0-0.json
+.. _`Dali Frc request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_Frc-request-1-0-0-example.json
-.. _`Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-response-1-0-0.json
+.. _`Dali Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_Frc-response-1-0-0-example.json
 
 Embed OS
