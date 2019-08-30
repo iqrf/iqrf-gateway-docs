@@ -7,6 +7,13 @@ Beta Application Programming Interface
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
 .. _`MQTT`: https://cs.wikipedia.org/wiki/MQTT
 
+Timestamps
+----------
+
+Timestamps are in ISO8601 Date (Extend) format.
+
+- YYYY-MM-DDThh:mm:ss.sss±hh:mm (2019-08-22T22:05:16.583+02:00)
+
 IQRF Standard
 -------------
 
