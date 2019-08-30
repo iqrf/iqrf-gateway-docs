@@ -17,6 +17,7 @@ Contents:
    roadmap
    introduction
    start
+   deployment
    daemon-install
    webapp-install
    configure

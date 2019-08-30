@@ -1,8 +1,17 @@
-News
+﻿News
 ====
 
 Releases
 --------
+
+iqrf-gateway-daemon (2.1.7) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * API: fix IQRF Sensor FRC schema
+ * GitLab CI: change in configuration deploy folder
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 30 Aug 2019 07:00:00 +0200
 
 iqrf-gateway-daemon (2.1.6) RELEASED; urgency=medium
 
@@ -101,8 +110,8 @@ iqrf-gateway-daemon (2.0.0) RELEASED; urgency=medium
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 22 Nov 2018 12:00:00 +0000
 
-Beta releases
--------------
+Release candidates
+------------------
 
 iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
 
