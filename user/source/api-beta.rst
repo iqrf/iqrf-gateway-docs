@@ -170,6 +170,10 @@ The commands to access daemon lite DB.
 - `GetSensors response v1-0-0`_ and `example`__
 - `GetBinaryOutputs request v1-0-0`_ and `example`__
 - `GetBinaryOutputs response v1-0-0`_ and `example`__
+- `GetLights request v1-0-0`_ and `example`__
+- `GetLights response v1-0-0`_ and `example`__
+- `GetDalis request v1-0-0`_ and `example`__
+- `GetDalis response v1-0-0`_ and `example`__
 
 .. _`StartEnumeration request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_StartEnumeration-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_StartEnumeration-request-1-0-0-example.json
@@ -183,6 +187,14 @@ The commands to access daemon lite DB.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetBinaryOutputs-request-1-0-0-example.json
 .. _`GetBinaryOutputs response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetBinaryOutputs-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetBinaryOutputs-response-1-0-0-example.json
+.. _`GetLights request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetLights-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetLights-request-1-0-0-example.json
+.. _`GetLights response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetLights-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetLights-response-1-0-0-example.json
+.. _`GetDalis request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetDalis-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetDalis-request-1-0-0-example.json
+.. _`GetDalis response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetDalis-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetDalis-response-1-0-0-example.json
 
 Daemon Notification
 -------------------
