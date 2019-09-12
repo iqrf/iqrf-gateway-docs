@@ -63,7 +63,7 @@ Support for new IQRF standard.
 Embed OS
 --------
 
-Fixes and changes related to DPA 4.10 (todo).
+Fixes and changes related to DPA 4.10.
 
 - `Read OS request v1-0-0`_ and `example`__
 - `Read OS response v1-0-0`_ and `example`__
@@ -117,7 +117,7 @@ Fixes and improvements.
 IQRF Enumeration
 ++++++++++++++++
 
-Fixes and changes related to DPA 4.10 (todo).
+Fixes and changes related to DPA 4.10.
 
 - `EnumerateDevice request v1-0-0`_ and `example`__
 - `EnumerateDevice response v1-0-0`_ and `example`__
@@ -130,7 +130,7 @@ Fixes and changes related to DPA 4.10 (todo).
 IQRF Configuration
 ++++++++++++++++++
 
-Changes related to DPA 4.10 (todo).
+Changes related to DPA 4.10.
 
 - `ReadTrConf request v1-0-0`_ and `example`__
 - `ReadTrConf response v1-0-0`_ and `example`__
