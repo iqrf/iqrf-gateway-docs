@@ -23,8 +23,8 @@ deploy-docs:
     - master
   script:
     - make -C user html
-    - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway
-    - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/user
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/user
     - make -C developer html
-    - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/developer
+    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/developer
   <<: *ssh_template
