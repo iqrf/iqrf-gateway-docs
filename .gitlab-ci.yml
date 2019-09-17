@@ -22,11 +22,9 @@ deploy-docs:
   only:
     - master
   script:
-    - cd user
-    - make html
+    - make -C user html
     - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway
     - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/user
-    - cd ../developer
-    - make html
+    - make -C developer html
     - rsync -hrvz --delete -e ssh build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway/developer
   <<: *ssh_template
