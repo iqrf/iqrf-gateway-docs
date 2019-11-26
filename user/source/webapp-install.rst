@@ -1,6 +1,9 @@
 How to install the webapp
 =========================
 
+Install first `IQRF Gateway daemon`_ package since IQRF repository is added during the daemon installation.
+IQRF repository is also needed in order to install webapp interface.
+
 Add PHP 7.3 repository
 ######################
 
@@ -27,3 +30,5 @@ Install IQRF Gateway webapp
 .. code-block:: bash
 
 	sudo apt-get install iqrf-gateway-webapp
+
+.. _`IQRF Gateway daemon`: daemon-install.html

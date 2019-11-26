@@ -89,10 +89,21 @@ Folder /etc/iqrf-gateway-daemon:
   - **Tip: check/configure your Websocket port**
   - Websocket port (1338)
 
+- iqrf__MonitorService.json
+
+  - **Tip: check/configure your Websocket port**
+  - Websocket port (1438)
+
 - iqrf__JsCache.json
 
   - **Tip: check/configure IQRF repository cache update period**
   - Cache update period (360m)
+
+- iqrf__JsonMngMetaDataApi.json
+
+  - **Tip: check/configure inclusion of metadata to json messages**
+  - metadata to messages (false)
+  - flag can be also changed in runtime using `cfgDaemon API`_ 
 
 - shape__TraceFileService.json
 
@@ -120,3 +131,4 @@ To load new configuration restart the daemon.
 .. _`installation guide`: webapp-install.html
 .. _`IQRF Gateway Webapp`: webapp-install.html
 .. _`Scheduler documentation`: scheduler.html
+.. _`cfgDaemon API`: api.html#daemon-configuration

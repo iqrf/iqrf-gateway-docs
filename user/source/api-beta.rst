@@ -166,6 +166,8 @@ The commands to access daemon lite DB.
 
 - `StartEnumeration request v1-0-0`_ and `example`__
 - `StartEnumeration response v1-0-0`_ and `example`__
+- `GetNodes request v1-0-0`_ and `example`__
+- `GetNodes response v1-0-0`_ and `example`__
 - `GetSensors request v1-0-0`_ and `example`__
 - `GetSensors response v1-0-0`_ and `example`__
 - `GetBinaryOutputs request v1-0-0`_ and `example`__
@@ -179,6 +181,10 @@ The commands to access daemon lite DB.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_StartEnumeration-request-1-0-0-example.json
 .. _`StartEnumeration response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_StartEnumeration-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_StartEnumeration-response-1-0-0-example.json
+.. _`GetNodes request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetNodes-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetNodes-request-1-0-0-example.json
+.. _`GetNodes response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetNodes-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetNodes-response-1-0-0-example.json
 .. _`GetSensors request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetSensors-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/infoDaemon_GetSensors-request-1-0-0-example.json
 .. _`GetSensors response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/infoDaemon_GetSensors-response-1-0-0.json

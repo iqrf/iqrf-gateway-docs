@@ -7,7 +7,7 @@ Releases
 iqrf-gateway-daemon
 +++++++++++++++++++
 
-v2.2.x (Q3/2019)
+v2.2.x (Q4/2019)
 
  * Adding lite DB to store network and devices information 
  * Adding AutoNetwork service support
@@ -16,7 +16,7 @@ v2.2.x (Q3/2019)
  * Improving handling of JSON timestamps
  * Improving scheduler API for multitask
 
-v2.3.x (Q4/2019)
+v2.3.x (Q4/2020)
 
  * Adding buffer when IP connectivity is down 
  * Adding full support of JS drivers from IQRF repository
@@ -28,7 +28,7 @@ v2.3.x (Q4/2019)
 iqrf-gateway-webapp
 +++++++++++++++++++
 
-v2.0.x (Q3/2019)
+v2.0.x (Q4/2019)
 
  * Support for gateway daemon v2.x
  * Websocket connection to the daemon
@@ -39,7 +39,7 @@ v2.0.x (Q3/2019)
  * Adding IQRF SPI uploader
  * Supporting scheduler multitask
 
-v2.1.x (Q4/2019)
+v2.1.x (Q2/2020)
 
  * Adding AutoNetwork service support
  * Adding hints for better orientation

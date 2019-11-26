@@ -65,7 +65,7 @@ v2.0.0
     ]
   }
 
-v2.1.0
+v2.1.x
 ++++++
 
 - Task 1, filename e.g. /var/cache/iqrf-gateway-daemon/scheduler/1.json
