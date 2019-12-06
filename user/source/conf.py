@@ -26,8 +26,7 @@ author = 'IQRF Tech s.r.o.'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v2.1.7'
-
+release = 'v2.2.0-rc'
 
 # -- General configuration ---------------------------------------------------
 
@@ -69,13 +68,12 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'nature'
+html_theme = 'p-main_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -103,7 +101,6 @@ html_sidebars = {'**': ['globaltoc.html', 'relations.html', 'sourcelink.html', '
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'IQRFGatewaydoc'
-
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -133,7 +130,6 @@ latex_documents = [
      'IQRF Tech s.r.o.', 'manual'),
 ]
 
-
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
@@ -142,7 +138,6 @@ man_pages = [
     (master_doc, 'iqrfgateway', 'IQRF Gateway Documentation',
      [author], 1)
 ]
-
 
 # -- Options for Texinfo output ----------------------------------------------
 

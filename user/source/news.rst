@@ -4,6 +4,30 @@
 Releases
 --------
 
+iqrf-gateway-daemon (2.2.0-rc) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Roman Ondracek ]
+ [ Vasek Hanak ]
+ [ Rostislav Spinar ]
+
+ * Added: DPA 4.1x support
+          Timestamps in ISO8601 Date (Extend) format
+          IQRF Dali standard support
+          Sensor and Dali FRC extended format
+          IQMESH AutoNetwork core functionality
+          Daemon state monitoring service
+          Native TR upload for KON-RASP-02 compatible boards
+          Build for RPI1 and RPI zero boards
+
+ * Improved: IQMESH WriteTrConf to enable broadcast
+             IQMESH SmartConnect service
+  
+ * Fixed: Missing TestRfSignal API
+          Minor repairs
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 6 Dec 2019 13:30:00 +0100
+
 iqrf-gateway-daemon (2.1.7) RELEASED; urgency=medium
 
  [ Rostislav Spinar ]

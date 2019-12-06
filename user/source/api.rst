@@ -70,6 +70,29 @@ Binaryoutput
 .. _`SetOutput response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfBinaryoutput_SetOutput-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfBinaryoutput_SetOutput-response-1-0-0-example.json
 
+Dali
+++++
+
+- `SendCommands request v1-0-0`_ and `example`__
+- `SendCommands response v1-0-0`_ and `example`__
+- `SendCommandsAsync request v1-0-0`_ and `example`__
+- `SendCommandsAsync response v1-0-0`_ and `example`__
+- `Dali Frc request v1-0-0`_ and `example`__
+- `Dali Frc response v1-0-0`_ and `example`__
+
+.. _`SendCommands request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommands-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommands-request-1-0-0-example.json
+.. _`SendCommands response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommands-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommands-response-1-0-0-example.json
+.. _`SendCommandsAsync request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommandsAsync-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommandsAsync-request-1-0-0-example.json
+.. _`SendCommandsAsync response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_SendCommandsAsync-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_SendCommandsAsync-response-1-0-0-example.json
+.. _`Dali Frc request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_Frc-request-1-0-0-example.json
+.. _`Dali Frc response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfDali_Frc-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfDali_Frc-response-1-0-0-example.json
+
 Light
 +++++
 
@@ -344,6 +367,10 @@ Embed OS
 - `WriteCfg response v1-0-0`_ and `example`__
 - `WriteCfgByte request v1-0-0`_ and `example`__
 - `WriteCfgByte response v1-0-0`_ and `example`__
+- `TestRfSignal request v1-0-0`_ and `example`__
+- `TestRfSignal response v1-0-0`_ and `example`__
+- `FactorySettings request v1-0-0`_ and `example`__
+- `FactorySettings response v1-0-0`_ and `example`__
 
 .. _`Read OS request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_Read-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_Read-request-1-0-0-example.json
@@ -393,6 +420,14 @@ Embed OS
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_WriteCfgByte-request-1-0-0-example.json
 .. _`WriteCfgByte response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_WriteCfgByte-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_WriteCfgByte-response-1-0-0-example.json
+.. _`TestRfSignal request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_TestRfSignal-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_TestRfSignal-request-1-0-0-example.json
+.. _`TestRfSignal response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_TestRfSignal-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_TestRfSignal-response-1-0-0-example.json
+.. _`FactorySettings request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_FactorySettings-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_FactorySettings-request-1-0-0-example.json
+.. _`FactorySettings response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqrfEmbedOs_FactorySettings-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqrfEmbedOs_FactorySettings-response-1-0-0-example.json
 
 Embed EEPROM
 ++++++++++++
@@ -625,6 +660,8 @@ IQRF Bonding
 - `SmartConnect response v1-0-0`_ and `example`__
 - `RemoveBond request v1-0-0`_ and `example`__
 - `RemoveBond response v1-0-0`_ and `example`__
+- `AutoNetwork request v1-0-0`_ and `example`__
+- `AutoNetwork response v1-0-0`_ and `example`__
 
 .. _`BondNodeLocal request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqmeshNetwork_BondNodeLocal-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_BondNodeLocal-request-1-0-0-example.json
@@ -638,6 +675,10 @@ IQRF Bonding
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_RemoveBond-request-1-0-0-example.json
 .. _`RemoveBond response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqmeshNetwork_RemoveBond-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_RemoveBond-response-1-0-0-example.json
+.. _`AutoNetwork request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqmeshNetwork_AutoNetwork-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_AutoNetwork-request-1-0-0-example.json
+.. _`AutoNetwork response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/iqmeshNetwork_AutoNetwork-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/iqmeshNetwork_AutoNetwork-response-1-0-0-example.json
 
 IQRF Enumeration
 ++++++++++++++++
@@ -676,6 +717,8 @@ Daemon Management
 - `Mode response v1-0-0`_ and `example`__
 - `Version request v1-0-0`_ and `example`__
 - `Version response v1-0-0`_ and `example`__
+- `Upload request v1-0-0`_ and `example`__
+- `Upload response v1-0-0`_ and `example`__
 
 .. _`Exit request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngDaemon_Exit-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Exit-request-1-0-0-example.json
@@ -689,6 +732,10 @@ Daemon Management
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Version-request-1-0-0-example.json
 .. _`Version response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngDaemon_Version-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Version-response-1-0-0-example.json
+.. _`Upload request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngDaemon_Upload-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Upload-request-1-0-0-example.json
+.. _`Upload response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngDaemon_Upload-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Upload-response-1-0-0-example.json
 
 Daemon Configuration
 --------------------
@@ -800,3 +847,13 @@ Daemon Metadata
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngMetaData_ExportNadrMidMap-request-1-0-0-example.json
 .. _`ExportNadrMidMap response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/mngMetaData_ExportNadrMidMap-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngMetaData_ExportNadrMidMap-response-1-0-0-example.json
+
+Daemon Notification
+-------------------
+
+Daemon state notifications related to interfaces, modes via websocket channel on port 1438.
+
+- `Monitor message v1-0-0`_ and `example`__
+
+.. _`Monitor message v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/#iqrf/ntfDaemon_Monitor-message-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/ntfDaemon_Monitor-message-1-0-0-example.json

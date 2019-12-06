@@ -97,7 +97,7 @@ Folder /etc/iqrf-gateway-daemon:
 - iqrf__JsCache.json
 
   - **Tip: check/configure IQRF repository cache update period**
-  - Cache update period (360m)
+  - Cache update period (720m)
 
 - iqrf__JsonMngMetaDataApi.json
 
@@ -111,7 +111,7 @@ Folder /etc/iqrf-gateway-daemon:
   - Path (/var/log/iqrf-gateway-daemon)
   - Filename (*Timestamp*-iqrf-gateway-daemon.log)
   - Size (1048576MB)
-  - Timestamp (true)
+  - Timestamp (false)
   - Verbosity (INF)
 
 Folder /var/cache/iqrf-gateway-daemon/scheduler:

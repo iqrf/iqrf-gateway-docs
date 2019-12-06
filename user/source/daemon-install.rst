@@ -10,21 +10,21 @@ Add IQRF Gateway repository
 Stable
 ------
 
--   iqrf-gateway-daemon_2.1.*_amd64.deb
--   iqrf-gateway-daemon_2.1.*_i386.deb
--   iqrf-gateway-daemon_2.1.*_arm64.deb
--   iqrf-gateway-daemon_2.1.*_armhf.deb
--   iqrf-gateway-daemon_2.1.*_armel.deb
+-   iqrf-gateway-daemon_2.2.*_amd64.deb
+-   iqrf-gateway-daemon_2.2.*_i386.deb
+-   iqrf-gateway-daemon_2.2.*_arm64.deb
+-   iqrf-gateway-daemon_2.2.*_armhf.deb
+-   iqrf-gateway-daemon_2.2.*_armel.deb
 
 
 Testing (Beta)
 --------------
 
--   iqrf-gateway-daemon_2.2.0-*_amd64.deb
--   iqrf-gateway-daemon_2.2.0-*_i386.deb
--   iqrf-gateway-daemon_2.2.0-*_arm64.deb
--   iqrf-gateway-daemon_2.2.0-*_armhf.deb
--   iqrf-gateway-daemon_2.2.0-*_armel.deb
+-   iqrf-gateway-daemon_2.3.0-*_amd64.deb
+-   iqrf-gateway-daemon_2.3.0-*_i386.deb
+-   iqrf-gateway-daemon_2.3.0-*_arm64.deb
+-   iqrf-gateway-daemon_2.3.0-*_armhf.deb
+-   iqrf-gateway-daemon_2.3.0-*_armel.deb
 
 For Debian, UbiLinux, Raspbian, Armbian
 ---------------------------------------
@@ -142,7 +142,7 @@ Update from beta release
 .. code-block:: bash
 
 	sudo apt-get purge iqrf-gateway-daemon
-	sudo apt-get install iqrf-gateway-daemon=2.1.*
+	sudo apt-get install iqrf-gateway-daemon=2.2.*
 
 Check the status of the daemon
 ##############################

@@ -14,7 +14,6 @@ v2.2.x (Q4/2019)
  * Adding IQMESH service for FRC together with metadata
  * Adding IQRF SPI uploader 
  * Improving handling of JSON timestamps
- * Improving scheduler API for multitask
 
 v2.3.x (Q4/2020)
 
@@ -23,6 +22,7 @@ v2.3.x (Q4/2020)
  * Adding security to Websocket channel
  * Adding IQMESH service for Backup/Restore
  * Adding IQMESH service for network topology and standard devices discovery 
+ * Improving scheduler API for multitask
  * Improving daemon logging
 
 iqrf-gateway-webapp
@@ -33,16 +33,16 @@ v2.0.x (Q4/2019)
  * Support for gateway daemon v2.x
  * Websocket connection to the daemon
  * Added Standard manager
- * Added TCPisek cloud platform wizard
+ * Added Hexio cloud platform wizard
  * Improved scheduler tasks setup 
  * Improved Network manager
  * Adding IQRF SPI uploader
- * Supporting scheduler multitask
 
 v2.1.x (Q2/2020)
 
  * Adding AutoNetwork service support
  * Adding hints for better orientation
+ * Supporting scheduler multitask
  * Improving WebSocket handling
  * Improving gateway updater for IQRF packages
  * Improving docker image
