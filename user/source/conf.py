@@ -73,7 +73,9 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'p-main_theme'
+import corlab_theme
+html_theme      = 'corlab_theme'
+html_theme_path = [ corlab_theme.get_theme_dir() ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -96,6 +98,9 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 html_sidebars = {'**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']}
+
+# Logo
+html_logo = 'images/iqrf-gateway-logo.png'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
