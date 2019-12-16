@@ -2,6 +2,20 @@
 How to install the daemon
 *************************
 
+Experimental Features
+#####################
+
+Major new features in the IQRF Gateway Daemon are introduced as experimental features at first. 
+This allows you to play around with them and test them out in a developmental capacity without 
+having it affect production targets. Once the feature is fully tested we will release it as a 
+production feature.
+
+Beta
+----
+
+The feature is still under development and should not be used on production targets as the 
+underlying functionality as well as the APIs may change in future releases.
+
 Add IQRF Gateway repository
 ###########################
 
@@ -10,21 +24,20 @@ Add IQRF Gateway repository
 Stable
 ------
 
--   iqrf-gateway-daemon_2.2.*_amd64.deb
--   iqrf-gateway-daemon_2.2.*_i386.deb
--   iqrf-gateway-daemon_2.2.*_arm64.deb
--   iqrf-gateway-daemon_2.2.*_armhf.deb
--   iqrf-gateway-daemon_2.2.*_armel.deb
-
+- iqrf-gateway-daemon_2.2.*_amd64.deb
+- iqrf-gateway-daemon_2.2.*_i386.deb
+- iqrf-gateway-daemon_2.2.*_arm64.deb
+- iqrf-gateway-daemon_2.2.*_armhf.deb
+- iqrf-gateway-daemon_2.2.*_armel.deb
 
 Testing (Beta)
 --------------
 
--   iqrf-gateway-daemon_2.3.0-*_amd64.deb
--   iqrf-gateway-daemon_2.3.0-*_i386.deb
--   iqrf-gateway-daemon_2.3.0-*_arm64.deb
--   iqrf-gateway-daemon_2.3.0-*_armhf.deb
--   iqrf-gateway-daemon_2.3.0-*_armel.deb
+- iqrf-gateway-daemon_2.3.0-*_amd64.deb
+- iqrf-gateway-daemon_2.3.0-*_i386.deb
+- iqrf-gateway-daemon_2.3.0-*_arm64.deb
+- iqrf-gateway-daemon_2.3.0-*_armhf.deb
+- iqrf-gateway-daemon_2.3.0-*_armel.deb
 
 For Debian, UbiLinux, Raspbian, Armbian
 ---------------------------------------

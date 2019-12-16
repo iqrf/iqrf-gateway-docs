@@ -15,7 +15,7 @@ v2.2.x (Q4/2019)
  * Adding IQRF SPI uploader 
  * Improving handling of JSON timestamps
 
-v2.3.x (Q4/2020)
+v2.3.x (Q2/2020)
 
  * Adding buffer when IP connectivity is down 
  * Adding full support of JS drivers from IQRF repository
