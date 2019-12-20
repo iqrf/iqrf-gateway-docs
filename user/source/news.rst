@@ -4,11 +4,20 @@
 Releases
 --------
 
-iqrf-gateway-daemon (2.2.0-rc.2) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc3) RELEASED; urgency=medium
 
  [ Rostislav Spinar ]
 
- * Fixed: 
+ * Fixed:
+  * Period setting in mngScheduler_AddTask API
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 20 Dec 2019 15:00:00 +0100
+
+iqrf-gateway-daemon (2.2.0-rc2) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Fixed:
   * LP timing for STD+LP networks
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 16 Dec 2019 14:30:00 +0100
