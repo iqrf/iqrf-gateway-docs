@@ -725,6 +725,10 @@ The commands to access daemon lite DB.
 - `GetLights response v1-0-0`_ and `example`__
 - `GetDalis request v1-0-0`_ and `example`__
 - `GetDalis response v1-0-0`_ and `example`__
+- `GetNodeMetaData request v1-0-0`_ and `example`__
+- `GetNodeMetaData response v1-0-0`_ and `example`__
+- `SetNodeMetaData request v1-0-0`_ and `example`__
+- `SetNodeMetaData response v1-0-0`_ and `example`__
 
 .. _`StartEnumeration request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_StartEnumeration-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_StartEnumeration-request-1-0-0-example.json
@@ -750,6 +754,14 @@ The commands to access daemon lite DB.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_GetDalis-request-1-0-0-example.json
 .. _`GetDalis response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_GetDalis-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_GetDalis-response-1-0-0-example.json
+.. _`GetNodeMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_GetNodeMetaData-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_GetNodeMetaData-request-1-0-0-example.json
+.. _`GetNodeMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_GetNodeMetaData-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_GetNodeMetaData-response-1-0-0-example.json
+.. _`SetNodeMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_SetNodeMetaData-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_SetNodeMetaData-request-1-0-0-example.json
+.. _`SetNodeMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/infoDaemon_SetNodeMetaData-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/infoDaemon_SetNodeMetaData-response-1-0-0-example.json
 
 Daemon Management
 -----------------
