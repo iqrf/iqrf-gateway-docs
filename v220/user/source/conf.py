@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'IQRF Gateway User'
-copyright = '2019, IQRF Tech s.r.o.'
+copyright = '2020, IQRF Tech s.r.o.'
 author = 'IQRF Tech s.r.o.'
 
 # The short X.Y version

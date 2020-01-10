@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'IQRF Gateway Developer'
-copyright = '2019, IQRF Tech s.r.o.'
+copyright = '2020, IQRF Tech s.r.o.'
 author = 'IQRF Tech s.r.o.'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'latest'
+release = 'v2.3.0-beta'
 
 
 # -- General configuration ---------------------------------------------------

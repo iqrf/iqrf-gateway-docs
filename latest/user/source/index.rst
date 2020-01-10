@@ -23,7 +23,6 @@ Contents:
    configure
    service
    api
-   api-beta
    scheduler
    docker
    gitlab
