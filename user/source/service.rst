@@ -29,4 +29,4 @@ Once you have finished working with IQMESH Network Manager switch the gateway ba
 mode. Channels MQ/WS/MQTT are active in **operational** mode.
 
 .. _`IQRF IDE`: https://iqrf.org/technology/iqrf-ide
-.. _`management API`: https://apidocs.iqrf.org/iqrf-gateway-daemon/json/iqrf/examples/mngDaemon_Mode-request-1-0-0-example.json
+.. _`management API`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngDaemon_Mode-request-1-0-0-example.json
