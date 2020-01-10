@@ -1,0 +1,179 @@
+﻿News
+====
+
+Releases
+--------
+
+iqrf-gateway-daemon (2.2.0-rc3) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Fixed:
+  * Period setting in mngScheduler_AddTask API
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 20 Dec 2019 15:00:00 +0100
+
+iqrf-gateway-daemon (2.2.0-rc2) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Fixed:
+  * LP timing for STD+LP networks
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 16 Dec 2019 14:30:00 +0100
+
+iqrf-gateway-daemon (2.2.0-rc) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Roman Ondracek ]
+ [ Vasek Hanak ]
+ [ Rostislav Spinar ]
+
+ * Added:
+  * DPA 4.1x support
+  * Timestamps in ISO8601 Date (Extend) format
+  * IQRF Dali standard support
+  * Sensor and Dali FRC extended format
+  * IQMESH AutoNetwork core functionality
+  * Daemon state monitoring service
+  * Native TR upload for KON-RASP-02 compatible boards
+  * Build for RPI1 and RPI zero boards
+
+ * Improved: 
+  * IQMESH WriteTrConf to enable broadcast
+  * IQMESH SmartConnect service
+  
+ * Fixed: 
+  * Missing TestRfSignal API
+  * Minor repairs
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 6 Dec 2019 13:30:00 +0100
+
+iqrf-gateway-daemon (2.1.7) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * API: fix IQRF Sensor FRC schema
+ * GitLab CI: change in configuration deploy folder
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 30 Aug 2019 07:00:00 +0200
+
+iqrf-gateway-daemon (2.1.6) RELEASED; urgency=medium
+
+ [ Roman Ondracek ]
+
+ * GitLab CI: fix daemon version, fix debug package
+ * GitLab CI: fix dependencies of the package for Debian Buster i386
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 19 Jul 2019 20:11:34 +0200
+
+iqrf-gateway-daemon (2.1.5) RELEASED; urgency=medium
+
+ [ Roman Ondracek ]
+
+ * IQRF Repository: rewrite updater to Python3, update cache
+ * GitLab CI: update package creation
+ * Debian packaging: update name of paho.mqtt.c package
+ * GitLab CI: fix build of temporary debug packages
+ * GitLab CI: fix build of package for Debian Buster
+ * GitLab CI: do not clean DAEMON_VERSION variable from the environment for Debian packaging
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 18 Jul 2019 23:51:47 +0200
+
+iqrf-gateway-daemon (2.1.4) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Improved: Auto update of IQRF repository cache during package build
+ * Updated: Sensor's FRC API doc
+ * Fixed: IQRF BO's schemas
+   
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 6 Jun 2019 5:00:00 +0000
+
+iqrf-gateway-daemon (2.1.3) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Fixed Scheduler's schemas
+ * Fixed Sensor's FRC service
+ * Updated Sensor's schemas
+ * Updated IQRF repository cache
+   
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 30 May 2019 14:00:00 +0000
+
+iqrf-gateway-daemon (2.1.2) RELEASED; urgency=medium
+
+ [ Rostislav Spinar ]
+
+ * Removing Autonetwork service from API and CFG
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 12 May 2019 21:00:00 +0000
+
+iqrf-gateway-daemon (2.1.1) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Roman Ondracek ]
+ [ Rostislav Spinar ]
+
+ * IQRF UART receive handling improved
+ * IQRF repository cache updated
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Wed, 8 May 2019 23:30:00 +0000
+
+iqrf-gateway-daemon (2.1.0) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Michal Konopa ]
+ [ Vasek Hanak ]
+ [ Dusan Machut ]
+ [ Roman Ondracek ]
+ [ Rostislav Spinar ]
+
+ * DPAv40x support
+ * Metadata API introduced
+ * IQMESH service for RemoveBond
+ * Scheduler API enhanced and persistent
+ * Deb packages for Armel arch
+ * Docker support
+ * Source code released
+ * Many fixes and improvements 
+  
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 3 May 2019 13:30:00 +0000
+
+iqrf-gateway-daemon (2.0.0) RELEASED; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Michal Konopa ]
+ [ Roman Ondracek ]
+ [ Rostislav Spinar ]
+
+ * Requesting initial async packet from the coordinator if not received during boot
+ * Monitoring initial async packet from the coordinator during runtime and setting RF mode
+ * WriteTrConf service improved
+ * BondNodeLocal and SmartConnect services improved
+ * Setting hwpId for IQRF Sensor FRC fixed
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 22 Nov 2018 12:00:00 +0000
+
+iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
+
+ [ Frantisek Mikulu ]
+ [ Michal Konopa ]
+ [ Vasek Hanak ]
+ [ Dusan Machut ]
+ [ Vlastimil Kosar ]
+ [ Roman Ondracek ]
+ [ Jaromir Mastik ]
+ [ Michal Valny ]
+ [ Rostislav Spinar ]
+
+ * IQRF JSON API v2, v1
+ * IQRF Standard
+ * IQRF Repository - offline/online
+ * IQMESH Network services
+ * MQ, MQTT, Websocket messaging
+ * SPI, UART, CDC interfaces
+ * DPA timing - unicast, broadcast, FRC
+ * DPA 3.03, 3.02
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 31 Oct 2018 11:20:00 +0000
