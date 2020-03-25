@@ -819,9 +819,9 @@ Daemon Metadata
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngMetaData_SetMidMetaId-request-1-0-0-example.json
 .. _`SetMidMetaId response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_SetMidMetaId-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngMetaData_SetMidMetaId-response-1-0-0-example.json
-.. _`GetMidMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_GetMidMetaId-request-1-0-0.json
+.. _`GetMidMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_GetMidMetaData-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngMetaData_GetMidMetaData-request-1-0-0-example.json
-.. _`GetMidMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_GetMidMetaId-response-1-0-0.json
+.. _`GetMidMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_GetMidMetaData-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngMetaData_GetMidMetaData-response-1-0-0-example.json
 .. _`GetNadrMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/mngMetaData_GetNadrMetaData-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/mngMetaData_GetNadrMetaData-request-1-0-0-example.json

@@ -708,6 +708,17 @@ IQRF Configuration
 .. _`WriteTrConf response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_WriteTrConf-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_WriteTrConf-response-1-0-0-example.json
 
+IQRF OTA
+++++++++
+
+- `OtaUpload request v1-0-0`_ and `example`__
+- `OtaUpload response v1-0-0`_ and `example`__
+
+.. _`OtaUpload request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_OtaUpload-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_OtaUpload-request-1-0-0-example.json
+.. _`OtaUpload response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_OtaUpload-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_OtaUpload-response-1-0-0-example.json
+
 Daemon Information
 ------------------
 
@@ -898,9 +909,9 @@ Daemon Metadata
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/mngMetaData_SetMidMetaId-request-1-0-0-example.json
 .. _`SetMidMetaId response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_SetMidMetaId-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/mngMetaData_SetMidMetaId-response-1-0-0-example.json
-.. _`GetMidMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_GetMidMetaId-request-1-0-0.json
+.. _`GetMidMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_GetMidMetaData-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/mngMetaData_GetMidMetaData-request-1-0-0-example.json
-.. _`GetMidMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_GetMidMetaId-response-1-0-0.json
+.. _`GetMidMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_GetMidMetaData-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/mngMetaData_GetMidMetaData-response-1-0-0-example.json
 .. _`GetNadrMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/mngMetaData_GetNadrMetaData-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/mngMetaData_GetNadrMetaData-request-1-0-0-example.json

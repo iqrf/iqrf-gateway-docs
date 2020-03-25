@@ -21,6 +21,17 @@ IQRF Bonding
 .. _`AutoNetwork response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_AutoNetwork-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_AutoNetwork-response-1-0-0-example.json
 
+IQRF OTA
+++++++++
+
+- `OtaUpload request v1-0-0`_ and `example`__
+- `OtaUpload response v1-0-0`_ and `example`__
+
+.. _`OtaUpload request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_OtaUpload-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_OtaUpload-request-1-0-0-example.json
+.. _`OtaUpload response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqmeshNetwork_OtaUpload-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqmeshNetwork_OtaUpload-response-1-0-0-example.json
+
 Daemon Information
 ------------------
 
