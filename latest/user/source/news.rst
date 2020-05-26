@@ -1,13 +1,10 @@
 ﻿News
 ====
 
-Releases
---------
-
 Latest daemon
-+++++++++++++
+-------------
 
-iqrf-gateway-daemon (2.2.0-rc6) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc6) testing; urgency=medium
 
  * Changed:
   * Periodic downloads from IQRF repository disabled
@@ -19,7 +16,7 @@ iqrf-gateway-daemon (2.2.0-rc6) RELEASED; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 26 May 2020 13:30:00 +0200
 
 Latest webapp
-+++++++++++++
+-------------
 
 iqrf-gateway-webapp (2.0.0-rc15) testing; urgency=medium
 
@@ -40,12 +37,12 @@ iqrf-gateway-webapp (2.0.0-rc15) testing; urgency=medium
   * Service: handle service manager process timeout (fixes IQRF-GATEWAY-WEBAPP-32)
   * Gateway: handle nonexistent IQRF Gateway Daemon log file (fixes IQRF-GATEWAY-WEBAPP-18)
 
- -- Roman Ondráček <roman@romanondracek.cz>  Sun, 24 May 2020 23:30:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Sun, 24 May 2020 23:30:00 +0200
 
 Former daemon versions
-++++++++++++++++++++++
+----------------------
 
-iqrf-gateway-daemon (2.2.0-rc5) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc5) testing; urgency=medium
 
  * Improved:
   * WriteTrConf service
@@ -56,7 +53,7 @@ iqrf-gateway-daemon (2.2.0-rc5) RELEASED; urgency=medium
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 3 May 2020 18:00:00 +0200
 
-iqrf-gateway-daemon (2.2.0-rc4) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc4) testing; urgency=medium
 
  * Improved:
   * IQRF SPI status handling
@@ -65,7 +62,7 @@ iqrf-gateway-daemon (2.2.0-rc4) RELEASED; urgency=medium
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 6 Feb 2020 14:30:00 +0100
 
-iqrf-gateway-daemon (2.2.0-rc3) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc3) testing; urgency=medium
 
  [ Rostislav Spinar ]
 
@@ -74,7 +71,7 @@ iqrf-gateway-daemon (2.2.0-rc3) RELEASED; urgency=medium
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 20 Dec 2019 15:00:00 +0100
 
-iqrf-gateway-daemon (2.2.0-rc2) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc2) testing; urgency=medium
 
  [ Rostislav Spinar ]
 
@@ -83,7 +80,7 @@ iqrf-gateway-daemon (2.2.0-rc2) RELEASED; urgency=medium
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 16 Dec 2019 14:30:00 +0100
 
-iqrf-gateway-daemon (2.2.0-rc) RELEASED; urgency=medium
+iqrf-gateway-daemon (2.2.0-rc) testing; urgency=medium
 
  [ Frantisek Mikulu ]
  [ Roman Ondracek ]
@@ -240,7 +237,7 @@ iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 31 Oct 2018 11:20:00 +0000
 
 Former webapp versions
-++++++++++++++++++++++
+----------------------
 
 iqrf-gateway-webapp (2.0.0-rc14) testing; urgency=medium
 
@@ -255,7 +252,7 @@ iqrf-gateway-webapp (2.0.0-rc14) testing; urgency=medium
   * Config: catch exceptions in scheduler task manager
   * Core: fix permission fixing while writing into file
 
- -- Roman Ondráček <roman@romanondracek.cz>  Thu, 14 May 2020 23:45:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 14 May 2020 23:45:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc13) testing; urgency=medium
 
@@ -269,7 +266,7 @@ iqrf-gateway-webapp (2.0.0-rc13) testing; urgency=medium
   * IQRF network: refactor form factories
   * Config: hide disabled IQRF interfaces
 
- -- Roman Ondráček <roman@romanondracek.cz>  Fri, 08 May 2020 00:30:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 08 May 2020 00:30:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc12) testing; urgency=medium
 
@@ -346,7 +343,7 @@ iqrf-gateway-webapp (2.0.0-rc12) testing; urgency=medium
   * Debian packaging: fix template warmup
   * Service: redesign status page
 
- -- Roman Ondráček <roman@romanondracek.cz>  Mon, 04 May 2020 22:00:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Mon, 04 May 2020 22:00:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc11) testing; urgency=medium
 
@@ -359,7 +356,7 @@ iqrf-gateway-webapp (2.0.0-rc11) testing; urgency=medium
   * Debian packaging: fix postint script
   * Use Doctrine instead of Nette Database
 
- -- Roman Ondráček <roman@romanondracek.cz>  Fri, 24 Apr 2020 15:00:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 24 Apr 2020 15:00:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc10) testing; urgency=medium
 
@@ -367,7 +364,7 @@ iqrf-gateway-webapp (2.0.0-rc10) testing; urgency=medium
   * Debian packaging: fix iqrf-gateway-webapp-manager installation
   * Disable secure flag in session cookies
 
- -- Roman Ondráček <roman@romanondracek.cz>  Fri, 17 Apr 2020 00:22:05 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Fri, 17 Apr 2020 00:22:05 +0200
 
 iqrf-gateway-webapp (2.0.0-rc9) testing; urgency=medium
 
@@ -378,14 +375,14 @@ iqrf-gateway-webapp (2.0.0-rc9) testing; urgency=medium
   * Debian packaging: fix SQLite database owner
   * Debian packaging: update mainteiner scripts
 
- -- Roman Ondráček <roman@romanondracek.cz>  Wed, 15 Apr 2020 23:30:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 15 Apr 2020 23:30:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc8) testing; urgency=medium
 
   * Prepare for version 2.0.0-rc8
   * IQRF net: update flash messages on Coordinator upload page
 
- -- Roman Ondráček <roman@romanondracek.cz>  Tue, 14 Apr 2020 01:32:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Tue, 14 Apr 2020 01:32:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc7) testing; urgency=medium
 
@@ -412,7 +409,7 @@ iqrf-gateway-webapp (2.0.0-rc7) testing; urgency=medium
   * Debian packaging: disable command printing
   * Config: fix scheduler ZIP archive import
 
- -- Roman Ondráček <roman@romanondracek.cz>  Mon, 13 Apr 2020 00:25:00 +0200
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Mon, 13 Apr 2020 00:25:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc6) testing; urgency=medium
 
@@ -420,7 +417,7 @@ iqrf-gateway-webapp (2.0.0-rc6) testing; urgency=medium
   * Gateway: rename IQRF Gateway Daemon and SSH daemon service managers
   * Gateway: redesign power control
 
- -- Roman Ondráček <roman@romanondracek.cz>  Thu, 19 Mar 2020 13:20:00 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 19 Mar 2020 13:20:00 +0100
 
 iqrf-gateway-webapp (2.0.0-rc5) testing; urgency=medium
 
@@ -442,7 +439,7 @@ iqrf-gateway-webapp (2.0.0-rc5) testing; urgency=medium
   * Gateway: add SSH daemon service manager (fix #227)
   * IQRF net: skip devices with invalid address in device map
 
- -- Roman Ondráček <roman@romanondracek.cz>  Wed, 18 Mar 2020 19:40:00 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 18 Mar 2020 19:40:00 +0100
 
 iqrf-gateway-webapp (2.0.0-rc4) testing; urgency=medium
 
@@ -455,7 +452,7 @@ iqrf-gateway-webapp (2.0.0-rc4) testing; urgency=medium
   * Debian packaging: skip tests
   * Config: add JSON schema validations for imported scheduler's tasks
 
- -- Roman Ondráček <roman@romanondracek.cz>  Wed, 12 Feb 2020 10:50:00 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 12 Feb 2020 10:50:00 +0100
 
 iqrf-gateway-webapp (2.0.0-rc3) testing; urgency=medium
 
@@ -504,7 +501,7 @@ iqrf-gateway-webapp (2.0.0-rc3) testing; urgency=medium
   * Install: add GW information download button (fix #218)
   * PHPStan: fix rule
 
- -- Roman Ondráček <roman@romanondracek.cz>  Sun, 09 Feb 2020 20:45:00 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Sun, 09 Feb 2020 20:45:00 +0100
 
 iqrf-gateway-webapp (2.0.0-rc2) testing; urgency=medium
 
@@ -514,11 +511,11 @@ iqrf-gateway-webapp (2.0.0-rc2) testing; urgency=medium
   * Debian packaging: fix patches
   * Add Rector, fix coding style
 
- -- Roman Ondráček <roman@romanondracek.cz>  Mon, 06 Jan 2020 13:37:07 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Mon, 06 Jan 2020 13:37:07 +0100
 
 iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
 
-  [ Roman Ondráček ]
+  [ Roman Ondráček ] [Rostislav Špinar]
 
   * Fix test for the version manager
   * Add locks for tests which is manipulating with files
@@ -785,11 +782,7 @@ iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
   * Gateway: add list of upgradable packages
   * Test: fix coding style
   * Tests: fix namespaces
-
-  [ Rostislav Spinar ]
   * Include deb package also for Ubuntu
-
-  [ Roman Ondráček ]
   * Config: add JSON Metadata API configuration tool
   * Gateway: add list of upgradable packages
   * Gateway: add an unsupported package manager error flash message
@@ -852,11 +845,7 @@ iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
   * Service: mode under Gateway module
   * IQRF net: change IQRF Standard manager's name in the navigation menu
   * IQRF Network: fix link to IQRF Gateway Daemon's API documentation
-
-  [ Rostislav Spinar ]
   * Docker for ARMHF
-
-  [ Roman Ondráček ]
   * Docker: refactor Dockerfiles
   * GitLab CI: fix paths to Dockerfiles
   * Docker: add support for armel, armhf, arm64, i386 and ppc64le
@@ -1024,11 +1013,7 @@ iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
   * Cloud: open PIXLA dashboard in a new tab
   * IQRF net: restart the daemon after Native upload
   * Fix coding style
-
-  [ Rostislav Spinar ]
   * Extend docker image for building docs
-
-  [ Roman Ondráček ]
   * IQRF net: disable DPA timeout by default on Send raw page, update NPM dependencies
   * IQRF net: fix DPA Handler file validation on TR upload page
   * Core: add live form validator
@@ -1041,7 +1026,7 @@ iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
   * Config: add task import (fix #181)
   * UNRELEASED
 
- -- Roman Ondráček <roman@romanondracek.cz>  Tue, 31 Dec 2019 23:37:48 +0100
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Tue, 31 Dec 2019 23:37:48 +0100
 
 iqrf-gateway-webapp (2.0.0-beta) testing; urgency=medium
 
@@ -1061,4 +1046,4 @@ iqrf-gateway-webapp (2.0.0-beta) testing; urgency=medium
   * Rename project to `iqrf-gateway-webapp`
   * Removed configuration tools for IQRF Gateway Daemon v1
 
- -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 05 Sep 2018 13:50:10 +0200News
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 05 Sep 2018 13:50:10 +0200
