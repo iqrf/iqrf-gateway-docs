@@ -16,6 +16,7 @@ v2.3.x (Q2/2020)
  * Adding IQRF SPI uploader
  * Adding security to Websocket channel
  * Improving handling of JSON timestamps
+ * Improving scheduler API for multitask
  * Improving IQMESH WriteTrConf service 
 
 v2.4.x (Q4/2020)
@@ -25,7 +26,6 @@ v2.4.x (Q4/2020)
  * Adding IQMESH service for OTA and Backup/Restore
  * Adding full support of JS drivers from IQRF repository
  * Adding unit and API tests
- * Improving scheduler API for multitask
  * Improving daemon logging
 
 iqrf-gateway-webapp
@@ -38,6 +38,7 @@ v2.0.x (Q2/2020)
  * Adding Standard manager
  * Adding Hexio cloud platform wizard
  * Adding IQRF SPI uploader for IQD-GW-01
+ * Adding support for scheduler multitask
  * Improving scheduler tasks setup
  * Improving TR configuration 
  * Improving Network manager

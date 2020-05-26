@@ -428,6 +428,10 @@ Embed OS
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqrfEmbedOs_FactorySettings-request-1-0-0-example.json
 .. _`FactorySettings response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/#iqrf/iqrfEmbedOs_FactorySettings-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/latest/json/iqrf/examples/iqrfEmbedOs_FactorySettings-response-1-0-0-example.json
+.. _`Indicate request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/iqrfEmbedOs_Indicate-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/iqrfEmbedOs_Indicate-request-1-0-0-example.json
+.. _`Indicate response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/#iqrf/iqrfEmbedOs_Indicate-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v220/json/iqrf/examples/iqrfEmbedOs_Indicate-response-1-0-0-example.json
 
 Embed EEPROM
 ++++++++++++
