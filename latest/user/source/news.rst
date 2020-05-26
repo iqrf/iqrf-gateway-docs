@@ -64,16 +64,12 @@ iqrf-gateway-daemon (2.2.0-rc4) testing; urgency=medium
 
 iqrf-gateway-daemon (2.2.0-rc3) testing; urgency=medium
 
- [ Rostislav Spinar ]
-
  * Fixed:
   * Period setting in mngScheduler_AddTask API
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 20 Dec 2019 15:00:00 +0100
 
 iqrf-gateway-daemon (2.2.0-rc2) testing; urgency=medium
-
- [ Rostislav Spinar ]
 
  * Fixed:
   * LP timing for STD+LP networks
@@ -109,16 +105,12 @@ iqrf-gateway-daemon (2.2.0-rc) testing; urgency=medium
 
 iqrf-gateway-daemon (2.1.7) RELEASED; urgency=medium
 
- [ Rostislav Spinar ]
-
  * API: fix IQRF Sensor FRC schema
  * GitLab CI: change in configuration deploy folder
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 30 Aug 2019 07:00:00 +0200
 
 iqrf-gateway-daemon (2.1.6) RELEASED; urgency=medium
-
- [ Roman Ondracek ]
 
  * GitLab CI: fix daemon version, fix debug package
  * GitLab CI: fix dependencies of the package for Debian Buster i386
@@ -140,8 +132,6 @@ iqrf-gateway-daemon (2.1.5) RELEASED; urgency=medium
 
 iqrf-gateway-daemon (2.1.4) RELEASED; urgency=medium
 
- [ Rostislav Spinar ]
-
  * Improved: Auto update of IQRF repository cache during package build
  * Updated: Sensor's FRC API doc
  * Fixed: IQRF BO's schemas
@@ -149,8 +139,6 @@ iqrf-gateway-daemon (2.1.4) RELEASED; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 6 Jun 2019 5:00:00 +0000
 
 iqrf-gateway-daemon (2.1.3) RELEASED; urgency=medium
-
- [ Rostislav Spinar ]
 
  * Fixed Scheduler's schemas
  * Fixed Sensor's FRC service
@@ -160,8 +148,6 @@ iqrf-gateway-daemon (2.1.3) RELEASED; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 30 May 2019 14:00:00 +0000
 
 iqrf-gateway-daemon (2.1.2) RELEASED; urgency=medium
-
- [ Rostislav Spinar ]
 
  * Removing Autonetwork service from API and CFG
   
@@ -515,7 +501,8 @@ iqrf-gateway-webapp (2.0.0-rc2) testing; urgency=medium
 
 iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
 
-  [ Roman Ondráček ] [Rostislav Špinar]
+  [ Roman Ondráček ] 
+  [ Rostislav Špinar ]
 
   * Fix test for the version manager
   * Add locks for tests which is manipulating with files
@@ -1024,13 +1011,11 @@ iqrf-gateway-webapp (2.0.0-rc1) testing; urgency=medium
   * Debian package: fix log directory permissions after every install/upgrade (fix #199)
   * Gateway: add IQRF Gateway Controller version and logs (fix #198)
   * Config: add task import (fix #181)
-  * UNRELEASED
-
+ 
  -- Roman Ondráček <roman.ondracek@iqrf.com>  Tue, 31 Dec 2019 23:37:48 +0100
 
 iqrf-gateway-webapp (2.0.0-beta) testing; urgency=medium
 
-  [ Roman Ondráček ]
   * Add configuration tools for IQRF Gateway Daemon v2
   * Add PHPStan - tool for static analysis
   * Add JSON schema validation
