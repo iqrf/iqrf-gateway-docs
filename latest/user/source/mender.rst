@@ -10,7 +10,7 @@ Mender server
 | Our testing server is running here: https://mender.iqrf.org
 
 | When you build your image adjust it for your server in yml configuration or ask us
-| for the demo at support@iqrf.org. 
+  for the demo at support@iqrf.org. 
 
 Repository
 ##########
