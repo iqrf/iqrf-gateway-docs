@@ -4,6 +4,26 @@
 Latest daemon
 -------------
 
+iqrf-gateway-daemon (2.2.0) stable; urgency=medium
+
+ * Info:
+  * Release version 2.2.0
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 21 Jun 2020 20:00:00 +0200
+
+Latest webapp
+-------------
+
+iqrf-gateway-webapp (2.0.0) stable; urgency=medium
+
+ * Info:
+  * Release version 2.0.0
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Mon, 22 Jun 2020 20:00:00 +0200
+
+Former daemon versions
+----------------------
+
 iqrf-gateway-daemon (2.2.0-rc6) testing; urgency=medium
 
  * Changed:
@@ -14,33 +34,6 @@ iqrf-gateway-daemon (2.2.0-rc6) testing; urgency=medium
   * iqrfEmbedCoordinator_SetMID 
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 26 May 2020 13:30:00 +0200
-
-Latest webapp
--------------
-
-iqrf-gateway-webapp (2.0.0-rc15) testing; urgency=medium
-
-  * Prepare for version 2.0.0-rc15
-  * Config: fix Tracer file configuration forms
-  * Core: replace form renderer
-  * Config: fix TRacer file confuguration tool
-  * Gateway: add list of installed packages into diagnostics archive
-  * IQRF net: add workaround for DNS servers with scoped IPv6 address
-  * Add tests, fix coding style
-  * NPM: update dependencies
-  * Fix Server Error page
-  * Kernel: handle invalid or nonexistent version file
-  * Guzzle: set timeout to 10 seconds
-  * Core: refactor optional feature management, disable version checker
-  * Gateway: check certificate and private key existence (fixes IQRF-GATEWAY-WEBAPP-1Q)
-  * Console: fix coding style
-  * Service: handle service manager process timeout (fixes IQRF-GATEWAY-WEBAPP-32)
-  * Gateway: handle nonexistent IQRF Gateway Daemon log file (fixes IQRF-GATEWAY-WEBAPP-18)
-
- -- Roman Ondráček <roman.ondracek@iqrf.com>  Sun, 24 May 2020 23:30:00 +0200
-
-Former daemon versions
-----------------------
 
 iqrf-gateway-daemon (2.2.0-rc5) testing; urgency=medium
 
@@ -224,6 +217,59 @@ iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
 
 Former webapp versions
 ----------------------
+
+iqrf-gateway-webapp (2.0.0-rc17) testing; urgency=medium
+
+  * Prepare for version 2.0.0-rc17
+  * API: check user language and role while user creation and editing
+  * Makefile: fix patch for Doctrine ORM
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Wed, 10 Jun 2020 21:15:00 +0200
+
+iqrf-gateway-webapp (2.0.0-rc16) testing; urgency=medium
+
+  * Prepare for version v2.0.0-rc16
+  * Makefile: apply patches for installation
+  * GitLab CI: fix Debian package creation for IQD-GW-01
+  * Makefile: do not install documentations for dependencies
+  * API: add JSON schema for WiFi network list
+  * Feature: add link to Grafana dashboard
+  * Tests: add skeleton for API automated testing
+  * API: fix user edit Tests: add features
+  * GitLab CI: add API testing
+  * GitLab CI: fix configuration
+  * GitLab CI: fix syntax
+  * API: fix API endpoint for user creation
+  * API: fix JWT authenticator
+  * Behat: refactor features
+  * Behat: fix coding style
+  * Gateway: fix disk, memory and swap sizes on 32-bit systems
+  * Install: add error messages for SQL driver is missing (fix IQRF-GATEWAY-WEBAPP-3B) and database table is missing (fix IQRF-GATEWAY-WEBAPP-28)
+  * Docker: fix images for latest tags
+  * GitLab CI: fix IQD-GW-01 stable package build
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Sat, 06 Jun 2020 10:30:51 +0200
+
+iqrf-gateway-webapp (2.0.0-rc15) testing; urgency=medium
+
+  * Prepare for version 2.0.0-rc15
+  * Config: fix Tracer file configuration forms
+  * Core: replace form renderer
+  * Config: fix TRacer file confuguration tool
+  * Gateway: add list of installed packages into diagnostics archive
+  * IQRF net: add workaround for DNS servers with scoped IPv6 address
+  * Add tests, fix coding style
+  * NPM: update dependencies
+  * Fix Server Error page
+  * Kernel: handle invalid or nonexistent version file
+  * Guzzle: set timeout to 10 seconds
+  * Core: refactor optional feature management, disable version checker
+  * Gateway: check certificate and private key existence (fixes IQRF-GATEWAY-WEBAPP-1Q)
+  * Console: fix coding style
+  * Service: handle service manager process timeout (fixes IQRF-GATEWAY-WEBAPP-32)
+  * Gateway: handle nonexistent IQRF Gateway Daemon log file (fixes IQRF-GATEWAY-WEBAPP-18)
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Sun, 24 May 2020 23:30:00 +0200
 
 iqrf-gateway-webapp (2.0.0-rc14) testing; urgency=medium
 
