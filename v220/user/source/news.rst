@@ -1,6 +1,14 @@
 ﻿News
 ====
 
+Documentation
+-------------
+
+ * Adding section about Mender OTA update
+ * Updating news section
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 23 Jun 2020 12:00:00 +0200
+
 Latest daemon
 -------------
 

@@ -25,6 +25,7 @@ Contents:
    api
    api-beta
    scheduler
+   mender
    docker
    gitlab
    links

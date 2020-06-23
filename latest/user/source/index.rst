@@ -24,6 +24,7 @@ Contents:
    service
    api
    scheduler
+   mender
    docker
    gitlab
    links
