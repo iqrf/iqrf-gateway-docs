@@ -12,12 +12,18 @@ Documentation
 Latest daemon
 -------------
 
-iqrf-gateway-daemon (2.2.0) stable; urgency=medium
+iqrf-gateway-daemon (2.2.2) stable; urgency=medium
+ 
+ * Configuration change
+  * Added parameter for websocket to accepts connection from localhost only 
+ 
+ * Fixed
+  * Selection of updated IQRF OS in JS drivers
 
  * Info:
-  * Release version 2.2.0
+  * Release version 2.2.2
 
- -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 21 Jun 2020 20:00:00 +0200
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 20 Jul 2020 12:00:00 +0200
 
 Latest webapp
 -------------
@@ -31,6 +37,25 @@ iqrf-gateway-webapp (2.0.0) stable; urgency=medium
 
 Former daemon versions
 ----------------------
+
+iqrf-gateway-daemon (2.2.1) stable; urgency=medium
+
+ * Fixed:
+  * Websocket messaging parameter acceptOnlyLocalhost
+  * Custom hwpId for coordinator commands
+  * Selection of updated IQRF OS in JS drivers
+
+ * Info:
+  * Release version 2.2.1
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Wed, 15 Jul 2020 12:30:00 +0200
+
+iqrf-gateway-daemon (2.2.0) stable; urgency=medium
+
+ * Info:
+  * Release version 2.2.0
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 21 Jun 2020 20:00:00 +0200
 
 iqrf-gateway-daemon (2.2.0-rc6) testing; urgency=medium
 
