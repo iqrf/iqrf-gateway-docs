@@ -1,5 +1,5 @@
-Application Programming Interface
-=================================
+Webapp API
+==========
 
 `REST API`_ to manage/configure different SW parts of the IQRF Gateway. 
 

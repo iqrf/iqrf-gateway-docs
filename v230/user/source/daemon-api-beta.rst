@@ -1,5 +1,5 @@
-Application Programming Interface - Beta
-========================================
+Daemon API - Beta
+=================
 
 **v2.4.0~beta** - only new or modified JSON messages for communication via `MQ`_/`WS`_/`MQTT`_ channels.
 
