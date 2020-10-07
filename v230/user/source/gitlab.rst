@@ -10,11 +10,6 @@ Public repositories
 
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon
   * https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-docker
-  * https://gitlab.iqrf.org/open-source/iqrf-gateway-docs
-  * https://gitlab.iqrf.org/open-source/iqrf-repository
-  * https://gitlab.iqrf.org/open-source/arduino 
-  * https://gitlab.iqrf.org/open-source/balena-cloud
 
 Public development
 ------------------

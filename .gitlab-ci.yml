@@ -28,10 +28,10 @@ deploy-docs:
     - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v220/user
     - make -C developer html
     - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v220/developer
-    - cd ../latest
+    - cd ../v230
     - make -C user html
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/latest
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/latest/user
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230/user
     - make -C developer html
-    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/latest/developer
+    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230/developer
   <<: *ssh_template

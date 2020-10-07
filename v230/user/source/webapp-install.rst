@@ -1,6 +1,12 @@
 How to install the webapp
 =========================
 
+.. figure:: images/iqrfgw-overview.png
+    :align: center
+    :figclass: align-center
+
+    Overview
+
 Install first `IQRF Gateway daemon`_ package since IQRF repository is added during the daemon installation.
 IQRF repository is also needed in order to install webapp interface.
 

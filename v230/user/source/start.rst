@@ -7,7 +7,7 @@ Getting started
 
   * Select **one of** from SPI, UART or CDC based on your HW
 
-* `Learn`_ about the daemon API
+* Learn about the `Daemon API`_ and `Webapp API`_
 * `Scheduler`_ helps with regular tasks 
 * Choose `MQ`_/`WS`_/`MQTT`_ channel for communication with the daemon
 
@@ -19,28 +19,34 @@ Getting started
 .. _`MQ`: https://en.wikipedia.org/wiki/Message_queue
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
 .. _`MQTT`: https://en.wikipedia.org/wiki/MQTT
-.. _`Learn`: api.html
+.. _`Daemon API`: daemon-api.html
+.. _`Webapp API`: webapp-api.html
 .. _`Scheduler`: scheduler.html
 
 Next steps
 ----------
 
 * Use http://webapp-ip/iqrfnet/send-raw/ to confirm communication with TR module in the gateway
-* Use http://webapp-ip/iqrfnet/network/ to **Bond via button**/**Smart Connect via QR code** new devices into the IQRF network
+* Use http://webapp-ip/iqrfnet/network/ to **Bond via button**/**Smart Connect via QR code**/**AutoNetwork** new devices into the IQRF network
 * Use http://webapp-ip/cloud/{aws/azure/bluemix/inteli-glue/} manager to connect the gateway to the **favourite cloud** 
+* Check gateway `Webapp API`_
+
 * Configure any JSON API task in the `Scheduler`_ or send `JSON API`_ requests from your application directly
-* If you use IQRF standard devices such as Sensor, Binary output or Light in your network, check `JSON API for Standard`_    
+* If you use IQRF standard devices such as Sensor, Binary output, Light or Dali in your network, check `JSON API for Standard`_    
 * Parse `JSON API`_ responses coming from the network
 
-.. _`JSON API`: api.html
-.. _`JSON API for Standard`: api.html#iqrf-standard
+.. _`JSON API`: daemon-api.html
+.. _`JSON API for Standard`: daemon-api.html#iqrf-standard
+.. _`Webapp API`: webapp-api.html
 
 Reference applications
 ----------------------
 
 - `FRC&Sleep`_
+- `Multiple GWs`_
 
 .. _`FRC&Sleep`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/apps/frc&sleep
+.. _`Multiple GWs`: https://docs.iqrf.org/iqd-gw-01/apps.html
 
 Examples
 --------

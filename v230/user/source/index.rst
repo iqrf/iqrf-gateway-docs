@@ -22,7 +22,9 @@ Contents:
    webapp-install
    configure
    service
-   api
+   daemon-api
+   daemon-api-beta
+   webapp-api
    scheduler
    mender
    docker

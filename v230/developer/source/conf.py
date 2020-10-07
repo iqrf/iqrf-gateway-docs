@@ -19,14 +19,15 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'IQRF Gateway User'
+project = 'IQRF Gateway Developer'
 copyright = '2020, IQRF Tech s.r.o.'
 author = 'IQRF Tech s.r.o.'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = 'v2.3.0-beta'
+release = 'v2.3.0'
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -68,14 +69,13 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import corlab_theme
-html_theme      = 'corlab_theme'
-html_theme_path = [ corlab_theme.get_theme_dir() ]
+html_theme = 'nature'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -99,13 +99,11 @@ html_static_path = ['_static']
 # html_sidebars = {}
 html_sidebars = {'**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']}
 
-# Logo
-html_logo = 'images/iqrf-gateway-logo.png'
-
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'IQRFGatewaydoc'
+
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -131,18 +129,20 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'IQRFGateway.tex', 'IQRF Gateway Documentation',
+    (master_doc, 'IQRFGateway.tex', 'IQRF Gateway Developer Documentation',
      'IQRF Tech s.r.o.', 'manual'),
 ]
+
 
 # -- Options for manual page output ------------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'iqrfgateway', 'IQRF Gateway Documentation',
+    (master_doc, 'iqrfgateway', 'IQRF Gateway Developer Documentation',
      [author], 1)
 ]
+
 
 # -- Options for Texinfo output ----------------------------------------------
 
@@ -150,7 +150,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'IQRFGateway', 'IQRF Gateway Documentation',
+    (master_doc, 'IQRFGateway', 'IQRF Gateway Developer Documentation',
      author, 'IQRFGateway', 'One line description of project.',
      'Miscellaneous'),
 ]

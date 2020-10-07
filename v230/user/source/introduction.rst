@@ -3,27 +3,39 @@ Introduction
 
 Open-source components for building IQRF Gateway.
 
-`IQRF Gateway Daemon`_ (IQRF GWD) project provides open-source components for building 
-IQRF Gateways. Together they form ready-to-use solution, including an user-friendly 
-`Web Interface`_ . Components can be extended or added based on the project requirements. 
-All components are licenced under Apache Licence 2.0 and can be used for commercial 
-purposes.
+`IQRF Gateway Daemon`_ project provides open-source components for building IQRF 
+Gateways based on Linux system. Together they form ready-to-use solution, including 
+an user-friendly `IQRF Gateway Webapp`_. Components can be extended or added based 
+on the project's requirements. All components are licenced under Apache Licence 2.0 
+and can be used for commercial purposes.
+
+IQRF GW daemon
+--------------
 
 .. figure:: images/iqrfgd-overview.png
     :align: center
     :figclass: align-center
 
-    IQRF GWD overview
+    Overview
+
+IQRF GW webapp
+--------------
+
+.. figure:: images/iqrfgw-overview.png
+    :align: center
+    :figclass: align-center
+
+    Overview
 
 .. _`IQRF Gateway Daemon`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon
-.. _`Web Interface`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp
+.. _`IQRF Gateway Webapp`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp
 
 Why v2
 ------
 
 - Modular design
 
-  - Extendible based on project requirements
+  - Extendible based on project's requirements
   - Based on `Shape framework`_
 
 - `IQRF Standard`_ supported and exposed as JSON API
@@ -47,10 +59,11 @@ Why v2
 - `WebSocket`_ channel introduced
   
   - Enables Docker containers for End-apps more easily
+  - TLS secured
 
 - IQRF UART interface supported
   
-  - Working with `UniPi Neuron IQRF`_ and other boards
+  - Working with `IQube`_, `UniPi Neuron IQRF`_ and other boards
 
 - Unicast, broadcast and FRC timing supported 
 
@@ -66,21 +79,17 @@ Why v2
 
 - Long term `support`_
 
-  - Have trouble, write `issue`_
-
-.. figure:: images/iqrfgd-components.png
-    :align: center
-    :figclass: align-center
-
-    IQRF GWD architecture
+  - Have trouble, write `daemon issue`_ or `webapp issue`_
 
 .. _`Shape framework`: https://github.com/logimic/shape
-.. _`IQRF Standard`: api.html#iqrf-standard
-.. _`IQMESH Services`: api.html#iqmesh-network
-.. _`IQRF Generic`: api.html#iqrf-generic
-.. _`IQRF Gateway Webapp`: https://docs.iqrf.org/iqrf-gateway-webapp
+.. _`IQRF Standard`: daemon-api.html#iqrf-standard
+.. _`IQMESH Services`: daemon-api.html#iqmesh-network
+.. _`IQRF Generic`: daemon-api.html#iqrf-generic
+.. _`IQRF Gateway Webapp`: introduction.html
 .. _`WebSocket`: https://en.wikipedia.org/wiki/WebSocket
-.. _`UniPi Neuron IQRF`: https://www.unipi.technology/cs/neuron-s103-iqrf-p139
+.. _`IQube`: https://docs.iqrf.org/iqd-gw-01
+.. _`UniPi Axon IQRF`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
 .. _`examples and reference apps`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples
 .. _`support`: support.html
-.. _`issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
+.. _`daemon issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
+.. _`webapp issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/issues

@@ -79,25 +79,22 @@ Folder /etc/iqrf-gateway-daemon:
   - Identification name of the GW (iqrf-gateway-daemon)
   - Set daemon to start in operMode (operational/service/forwarding)  
 
-- iqrf__WebsocketMessaging.json
-
-  - **Tip: check/configure your Websocket msgs**
-  - Accept async msgs (true)
-
 - shape__WebsocketService.json
 
-  - **Tip: check/configure your Websocket port**
+  - **Tip: check your port and enable channel for remote connection if required**
   - Websocket port (1338)
+  - AcceptOnlyLocalhost (true)
+  - Accept async msgs (true)
 
 - iqrf__MonitorService.json
 
-  - **Tip: check/configure your Websocket port**
+  - **Tip: check your port**
   - Websocket port (1438)
 
 - iqrf__JsCache.json
 
   - **Tip: check/configure IQRF repository cache update period**
-  - Cache update period (720m)
+  - Cache update period (0m)
 
 - iqrf__JsonMngMetaDataApi.json
 
@@ -131,4 +128,4 @@ To load new configuration restart the daemon.
 .. _`installation guide`: webapp-install.html
 .. _`IQRF Gateway Webapp`: webapp-install.html
 .. _`Scheduler documentation`: scheduler.html
-.. _`cfgDaemon API`: api.html#daemon-configuration
+.. _`cfgDaemon API`: daemon-api.html#daemon-configuration

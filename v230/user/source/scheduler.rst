@@ -19,52 +19,6 @@ Following example schedules two tasks.
 - use service **SchedulerMessaging**  
 - choose messaging (**MqMessaging**, **WebsocketMessaging**, **MqttMessaging**) `JSON API`_ response will be sent 
 
-v2.0.0
-++++++
-
-.. code-block:: json
-
-  {
-    "TasksJson": [
-      {
-        "time": "0 */1 * * * * *",
-        "service": "SchedulerMessaging",
-        "task": {
-          "messaging": "WebsocketMessaging",
-          "message": {
-            "mType": "iqmeshNetwork_EnumerateDevice",
-            "data": {
-              "msgId": "a726ecb9-ee7c-433a-9aa4-3fb21cae2d4d",
-              "repeat": 1,
-              "req": {
-              "deviceAddr": 1
-              },
-              "returnVerbose": true
-            }
-          }
-        }
-      },
-      {
-        "time": "1 */1 * * * * *",
-        "service": "SchedulerMessaging",
-        "task": {
-          "messaging": "WebsocketMessaging",
-          "message": {
-            "mType": "iqmeshNetwork_EnumerateDevice",
-            "data": {
-              "msgId": "b726ecb9-ee7c-433a-9aa4-3fb21cae2d4d",
-              "repeat": 1,
-              "req": {
-              "deviceAddr": 2
-              },
-              "returnVerbose": true
-            }
-          }
-        }
-      }
-    ]
-  }
-
 From v2.1.x
 +++++++++++
 
@@ -173,7 +127,7 @@ Scheduler can be also configured via `Scheduler API`_. **Configuration via API i
 
 There are examples in `C# test app`_.
 
-.. _`JSON API`: https://docs.iqrf.org/iqrf-gateway/api.html
+.. _`JSON API`: https://docs.iqrf.org/iqrf-gateway/daemon-api.html
 .. _`Cron format`: https://en.wikipedia.org/wiki/Cron
-.. _`Scheduler API`: https://docs.iqrf.org/iqrf-gateway/api.html#daemon-scheduler
+.. _`Scheduler API`: https://docs.iqrf.org/iqrf-gateway/daemon-api.html#daemon-scheduler
 .. _`C# test app`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/c#
