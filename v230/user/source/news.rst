@@ -7,7 +7,7 @@ Documentation
  * Adding section about Webapp API
  * Overall documentation update
 
- -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 7 Oct 2020 12:00:00 +0200
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 07 Oct 2020 12:00:00 +0200
 
  * Adding section about Mender OTA update
  * Updating news section
@@ -22,7 +22,7 @@ iqrf-gateway-daemon (2.3.0~rc1) testing; urgency=medium
 
  * `Changelog daemon 2.3.0~rc1`_
 
- -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 5 Oct 2020 13:30:00 +0200
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 05 Oct 2020 13:30:00 +0200
 
 .. _`Changelog daemon 2.3.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0-rc1/debian/changelog#L1
 
