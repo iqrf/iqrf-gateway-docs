@@ -26,7 +26,7 @@ Generic messages are able to handle any DPA packet.
 Raw
 +++
 
-- `Raw request v1-0-0`_ and `example`__ 
+- `Raw request v1-0-0`_ and `example`__
 - `Raw response v1-0-0`_ and `example`__
 
 .. _`Raw request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/iqrfRaw-request-1-0-0.json

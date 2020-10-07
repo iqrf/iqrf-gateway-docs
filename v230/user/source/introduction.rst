@@ -52,7 +52,7 @@ Why v2
 
   - Working with DPA bits and bytes as in GW Daemon v1
 
-- Reworked IQMESH Manager in `IQRF Gateway Webapp`_ 
+- Reworked IQMESH Manager in `Webapp`_ 
 
   - Making use of IQMESH Services as mentioned above
 
@@ -85,7 +85,7 @@ Why v2
 .. _`IQRF Standard`: daemon-api.html#iqrf-standard
 .. _`IQMESH Services`: daemon-api.html#iqmesh-network
 .. _`IQRF Generic`: daemon-api.html#iqrf-generic
-.. _`IQRF Gateway Webapp`: introduction.html
+.. _`Webapp`: introduction.html#iqrf-gw-webapp
 .. _`WebSocket`: https://en.wikipedia.org/wiki/WebSocket
 .. _`IQube`: https://docs.iqrf.org/iqd-gw-01
 .. _`UniPi Axon IQRF`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
