@@ -3,6 +3,7 @@ How to install the webapp
 
 .. figure:: images/iqrfgw-overview.png
     :align: center
+		:scale: 50 %
     :figclass: align-center
 
     Overview

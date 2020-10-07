@@ -4,6 +4,7 @@ How to install the daemon
 
 .. figure:: images/iqrfgd-overview.png
     :align: center
+		:scale: 50 %
     :figclass: align-center
 
     Overview
