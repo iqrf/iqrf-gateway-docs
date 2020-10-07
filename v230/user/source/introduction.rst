@@ -63,7 +63,7 @@ Why v2
 
 - IQRF UART interface supported
   
-  - Working with `IQube`_, `UniPi Neuron IQRF`_ and other boards
+  - Working with `IQube`_, `Axon`_ and other boards
 
 - Unicast, broadcast and FRC timing supported 
 
@@ -88,7 +88,7 @@ Why v2
 .. _`Webapp`: introduction.html#iqrf-gw-webapp
 .. _`WebSocket`: https://en.wikipedia.org/wiki/WebSocket
 .. _`IQube`: https://docs.iqrf.org/iqd-gw-01
-.. _`UniPi Axon IQRF`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
+.. _`Axon`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
 .. _`examples and reference apps`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples
 .. _`support`: support.html
 .. _`daemon issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
