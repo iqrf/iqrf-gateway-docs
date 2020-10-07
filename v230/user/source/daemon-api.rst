@@ -371,6 +371,8 @@ Embed OS
 - `TestRfSignal response v1-0-0`_ and `example`__
 - `FactorySettings request v1-0-0`_ and `example`__
 - `FactorySettings response v1-0-0`_ and `example`__
+- `Indicate request v1-0-0`_ and `example`__
+- `Indicate response v1-0-0`_ and `example`__
 
 .. _`Read OS request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/iqrfEmbedOs_Read-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/iqrfEmbedOs_Read-request-1-0-0-example.json
