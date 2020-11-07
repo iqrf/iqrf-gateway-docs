@@ -4,19 +4,68 @@
 Documentation
 -------------
 
- * Adding section about Webapp API
+ * Updating news and roadmap
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 02 Nov 2020 12:00:00 +0100
+
+ * Adding Webapp API
  * Overall documentation update
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 07 Oct 2020 12:00:00 +0200
 
- * Adding section about Mender OTA update
- * Updating news section
+ * Adding Mender OTA update
+ * Updating news
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Tue, 23 Jun 2020 12:00:00 +0200
 
-
 Latest daemon
 -------------
+
+iqrf-gateway-daemon (2.3.2) stable; urgency=medium
+
+ * `Changelog daemon 2.3.2`_
+
+ -- Karel Hanak <karel.hanak@iqrf.com>  Mon, 02 Nov 2020 13:30:00 +0100
+
+.. _`Changelog daemon 2.3.2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.2/debian/changelog#L1
+
+Latest webapp
+-------------
+
+iqrf-gateway-webapp (2.1.0) stable; urgency=medium
+
+ * `Changelog webapp 2.1.0`_
+
+ -- Roman Ondracek <roman.ondracek@iqrf.com>  Sun, 25 Oct 2020 11:25:00 +0100
+
+.. _`Changelog webapp 2.1.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0/debian/changelog#L1
+
+Former daemon versions
+----------------------
+
+iqrf-gateway-daemon (2.3.1) stable; urgency=medium
+
+ * `Changelog daemon 2.3.1`_
+
+ -- Roman Ondracek <roman.ondracek@iqrf.com>  Thu, 29 Oct 2020 12:15:00 +0100
+
+.. _`Changelog daemon 2.3.1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.1/debian/changelog#L1
+
+iqrf-gateway-daemon (2.3.0) stable; urgency=medium
+
+ * `Changelog daemon 2.3.0`_
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 25 Oct 2020 23:15:00 +0100
+
+.. _`Changelog daemon 2.3.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0/debian/changelog#L1
+
+iqrf-gateway-daemon (2.3.0~rc2) testing; urgency=medium
+
+ * `Changelog daemon 2.3.0~rc2`_
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 16 Oct 2020 22:00:00 +0200
+
+.. _`Changelog daemon 2.3.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0-rc2/debian/changelog#L1
 
 iqrf-gateway-daemon (2.3.0~rc1) testing; urgency=medium
 
@@ -25,20 +74,6 @@ iqrf-gateway-daemon (2.3.0~rc1) testing; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 05 Oct 2020 13:30:00 +0200
 
 .. _`Changelog daemon 2.3.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0-rc1/debian/changelog#L1
-
-Latest webapp
--------------
-
-iqrf-gateway-webapp (2.1.0~rc1) testing; urgency=medium
-
- * `Changelog webapp 2.1.0~rc1`_
-
- -- Roman Ondracek <roman.ondracek@iqrf.com>  Tue, 06 Oct 2020 06:10:00 +0200
-
-.. _`Changelog webapp 2.1.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc1/debian/changelog#L1
-
-Former daemon versions
-----------------------
 
 iqrf-gateway-daemon (2.2.2) stable; urgency=medium
  
@@ -259,6 +294,30 @@ iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
 
 Former webapp versions
 ----------------------
+
+iqrf-gateway-webapp (2.1.0~rc3) testing; urgency=medium
+
+ * `Changelog webapp 2.1.0~rc3`_
+
+ -- Roman Ondracek <roman.ondracek@iqrf.com>  Wed, 14 Oct 2020 01:55:00 +0200
+
+.. _`Changelog webapp 2.1.0~rc3`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc3/debian/changelog#L1
+
+iqrf-gateway-webapp (2.1.0~rc2) testing; urgency=medium
+
+ * `Changelog webapp 2.1.0~rc2`_
+
+ -- Roman Ondracek <roman.ondracek@iqrf.com>  Fri, 09 Oct 2020 00:15:00 +0200
+
+.. _`Changelog webapp 2.1.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc2/debian/changelog#L1
+
+iqrf-gateway-webapp (2.1.0~rc1) testing; urgency=medium
+
+ * `Changelog webapp 2.1.0~rc1`_
+
+ -- Roman Ondracek <roman.ondracek@iqrf.com>  Tue, 06 Oct 2020 06:10:00 +0200
+
+.. _`Changelog webapp 2.1.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc1/debian/changelog#L1
 
 iqrf-gateway-webapp (2.0.0) stable; urgency=medium
 

@@ -22,8 +22,10 @@ iqrf-gateway-webapp
 v2.2.x (Q4/2020)
 
  * Adding Backup/Restore service support
- * Adding support for Network/ModemManager and VPN configuration
+ * Adding support for IQRF OS upload
+ * Better orientation in the configuration
 
 v2.3.x (Q1/2021)
 
+ * Adding support for Network/ModemManager and VPN configuration
  * Adding hints for better orientation
