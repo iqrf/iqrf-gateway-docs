@@ -97,6 +97,8 @@ Usage:
 
 	iqrf-gateway-webapp-manager api-key:add [-d|--description DESCRIPTION] [-e|--expiration EXPIRATION]
 
+Note: To create API key with no expiration date, use the ``--no-interaction`` option and omit the ``-e|--expiration`` option. Alternatively, submit empty value in interactive mode.
+
 api-key:edit
 ^^^^^^^^^^^^
 
@@ -234,7 +236,7 @@ Usage:
 
 	iqrf-gateway-webapp-manager mapping:add [-t|--type TYPE] [-N|--name NAME] [-I|--interface INTERFACE] [-b|--bus-pin BUS_PIN] [-p|--pgm-pin PGM_PIN] [-P|--power-pin POWER_PIN] [-r|--baud-rate BAUD_RATE]
 
-*Note: Baud rate is an optional argument unless the mapping type is set to UART.*
+Note: Baud rate is an optional argument unless the mapping type is set to UART.
 
 mapping:edit
 ^^^^^^^^^^^^
