@@ -1,5 +1,5 @@
-Webapp CLI
-==========
+Webapp CLI - IQRF Gateway Webapp Manager
+========================================
 
 The IQRF Gateway Webapp Manager is a command-line interface that can be used to manage the Webapp database and features from a command shell.
 
