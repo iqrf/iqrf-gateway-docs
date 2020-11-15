@@ -25,7 +25,7 @@ Contents:
    daemon-api
    daemon-api-beta
    webapp-api
-   webapp-cli-tool
+   webapp-cli
    scheduler
    mender
    docker
