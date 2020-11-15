@@ -10,8 +10,8 @@ The basic syntax for using the CLI tool is as follows::
 
 	iqrf-gateway-webapp-manager <command> [options] [arguments]
 
-Use *iqrf-gateway-webapp-manager help <command>* to display help message for specified command. Commands, their parameters and usage can be found below.
-Commands can either be used in interactive mode by not specifying options, or non-interactive mode if all options are specified or the *--no-interaction* option is used.
+Use ``iqrf-gateway-webapp-manager help <command>`` to display help message for specified command. Commands, their parameters and usage can be found below.
+Commands can either be used in interactive mode by not specifying options, or non-interactive mode if all options are specified or the ``--no-interaction`` option is used.
 Commands are split into several sections, options for each command group are at the end of the respective section.
 
 General options
@@ -41,7 +41,7 @@ help
 
 Displays help message for a specific command with description, arguments and usage.
 
-Synopsis:
+Usage:
 
 .. code-block:: bash
 
