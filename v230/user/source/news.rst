@@ -306,7 +306,7 @@ iqrf-gateway-webapp (2.2.0-rc2) stable; urgency=medium
 
  -- Karel Hanak <karel.hanak@iqrf.com>  Sat, 14 Nov 2020 16:36:26 +0100
 
-.. _`Changelog webapp 2.2.0-rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc2/debian/changelog#L1
+.. _`Changelog webapp 2.2.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc2/debian/changelog#L1
 
 iqrf-gateway-webapp (2.2.0-rc1) stable; urgency=medium
 
@@ -314,7 +314,7 @@ iqrf-gateway-webapp (2.2.0-rc1) stable; urgency=medium
 
  -- Karel Hanak <karel.hanak@iqrf.com>  Fri, 13 Nov 2020 18:50:54 +0100
 
-.. _`Changelog webapp 2.2.0-rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc1/debian/changelog#L1
+.. _`Changelog webapp 2.2.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc1/debian/changelog#L1
 
 iqrf-gateway-webapp (2.1.0) stable; urgency=medium
 
