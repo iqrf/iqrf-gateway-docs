@@ -4,11 +4,16 @@
 Documentation
 -------------
 
+ * Adding Webapp CLI description
+ * Updating news and roadmap
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 16 Nov 2020 19:10:00 +0100
+
  * Updating news and roadmap
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 02 Nov 2020 12:00:00 +0100
 
- * Adding Webapp API
+ * Adding Webapp API page
  * Overall documentation update
 
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Thu, 07 Oct 2020 12:00:00 +0200
