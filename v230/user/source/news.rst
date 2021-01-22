@@ -1,6 +1,14 @@
 ﻿News
 ====
 
+Known issues
+------------
+
+| IQRF GW webapp before version 2.0.1 is vulnerable to an code injection attack by passing 
+  specially formed parameters to URL that is leading to RCE (CVE-2020-15227 
+  (https://blog.nette.org/en/cve-2020-15227-potential-remote-code-execution-vulnerability, 
+   https://nvd.nist.gov/vuln/detail/CVE-2020-15227)).
+
 Documentation
 -------------
 
@@ -26,13 +34,13 @@ Documentation
 Latest daemon
 -------------
 
-iqrf-gateway-daemon (2.3.4) stable; urgency=medium
+iqrf-gateway-daemon (2.3.5) stable; urgency=medium
 
- * `Changelog daemon 2.3.4`_
+ * `Changelog daemon 2.3.5`_
 
- -- Karel Hanák <karel.hanak@iqrf.org>  Thu, 17 Dec 2020 16:17:02 +0100
+ -- Karel Hanák <karel.hanak@iqrf.org>  Fri, 08 Jan 2021 09:48:46 +0100
 
-.. _`Changelog daemon 2.3.4`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.4/debian/changelog#L1
+.. _`Changelog daemon 2.3.5`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.5/debian/changelog#L1
 
 Latest webapp
 -------------
@@ -47,6 +55,14 @@ iqrf-gateway-webapp (2.2.3) stable; urgency=medium
 
 Former daemon versions
 ----------------------
+
+iqrf-gateway-daemon (2.3.4) stable; urgency=medium
+
+ * `Changelog daemon 2.3.4`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Thu, 17 Dec 2020 16:17:02 +0100
+
+.. _`Changelog daemon 2.3.4`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.4/debian/changelog#L1
 
 iqrf-gateway-daemon (2.3.3) stable; urgency=medium
 
