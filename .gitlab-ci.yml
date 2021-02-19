@@ -24,14 +24,14 @@ deploy-docs:
   script:
     - cd v220
     - make -C user html
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v220
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v220/user
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v220
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v220/user
     - make -C developer html
-    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v220/developer
+    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v220/developer
     - cd ../v230
     - make -C user html
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230
-    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230/user
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v230
+    - rsync -hrvz --delete -e ssh user/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v230/user
     - make -C developer html
-    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@iqrfsdk.org:/data/nginx/docs/iqrf-gateway-html/v230/developer
+    - rsync -hrvz --delete -e ssh developer/build/html/ www-deploy@icinga.iqrf.org:/data/nginx/docs/iqrf-gateway-html/v230/developer
   <<: *ssh_template
