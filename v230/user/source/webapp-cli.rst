@@ -95,7 +95,7 @@ Usage:
 
 .. code-block:: bash
 
-	iqrf-gateway-webapp-manager api-key:add [-d|--description DESCRIPTION] [-e|--expiration EXPIRATION]
+	iqrf-gateway-webapp-manager api-key:add [-d|--description DESCRIPTION] [-e|--expiration EXPIRATION] [--no-formatting]
 
 Note: To create API key with no expiration date, use the ``--no-interaction`` option and omit the ``-e|--expiration`` option. Alternatively, submit empty value in interactive mode.
 
@@ -133,6 +133,7 @@ Options for API key commands.
 	"``-i``", "``--id``", "API key ID"
 	"``-d``", "``--description``", "API key description"
 	"``-e``", "``--expiration``", "API key expiration"
+	"``N/A``", "``--no-formatting``", "Outputs API key without formatting"
 
 Database commands
 -----------------
@@ -321,6 +322,8 @@ user:password
 
 Changes password of an existing user profile and stores changes in the database.
 
+Usage:
+
 .. code-block:: bash
 
 	iqrf-gateway-webapp-manager user:password [-u|--username USERNAME] [-p|--password PASSWORD]
@@ -329,6 +332,8 @@ user:remove
 ^^^^^^^^^^^
 
 Removes an existing user profile from the database.
+
+Usage:
 
 .. code-block:: bash
 
@@ -347,3 +352,41 @@ Options for user commands.
 	"``-p``", "``--password``", "User's password"
 	"``-r``", "``--role``", "User's role, available options: normal, power"
 	"``-l``", "``--language``", "User's interface language, available options: en"
+
+WireGuard VPN commands
+----------------------
+
+Commands used to manage WireGuard VPN tunnels stored in the webapp database.
+
+wireguard:list
+^^^^^^^^^^^^^^
+
+Lists all existing WireGuard VPN tunnels.
+
+Usage:
+
+.. code-block:: bash
+
+	iqrf-gateway-webapp-manager wireguard:list
+
+wireguard:activate
+^^^^^^^^^^^^^^^^^^
+
+Activates specified WireGuard VPN tunnel
+
+Usage:
+
+.. code-block:: bash
+
+	iqrf-gateway-webapp-manager wireguard:activate <tunnel_name>
+
+wireguard:deactivate
+^^^^^^^^^^^^^^^^^^^^
+
+Deactivates specified WireGuard VPN tunnel
+
+Usage:
+
+.. code-block:: bash
+
+	iqrf-gateway-webapp-manager wireguard:deactivate <tunnel_name>
