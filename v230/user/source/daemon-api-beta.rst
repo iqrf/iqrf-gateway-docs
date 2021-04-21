@@ -7,20 +7,6 @@ Daemon API - Beta
 .. _`WS`: https://en.wikipedia.org/wiki/WebSocket
 .. _`MQTT`: https://cs.wikipedia.org/wiki/MQTT
 
-IQMESH Network
---------------
-
-IQRF OTA
-++++++++
-
-- `OtaUpload request v1-0-0`_ and `example`__
-- `OtaUpload response v1-0-0`_ and `example`__
-
-.. _`OtaUpload request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/iqmeshNetwork_OtaUpload-request-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/iqmeshNetwork_OtaUpload-request-1-0-0-example.json
-.. _`OtaUpload response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/iqmeshNetwork_OtaUpload-response-1-0-0.json
-.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/iqmeshNetwork_OtaUpload-response-1-0-0-example.json
-
 Daemon Information
 ------------------
 
@@ -46,6 +32,8 @@ The commands to access daemon lite DB.
 - `MidMetaDataAnnotate response v1-0-0`_ and `example`__
 - `OrphanedMids request v1-0-0`_ and `example`__
 - `OrphanedMids response v1-0-0`_ and `example`__
+- `Reset request v1-0-0`_ and `example`__
+- `Reset response v1-0-0`_ and `example`__
 - `SetMidMetaData request v1-0-0`_ and `example`__
 - `SetMidMetaData response v1-0-0`_ and `example`__
 - `SetNodeMetaData request v1-0-0`_ and `example`__
@@ -91,6 +79,10 @@ The commands to access daemon lite DB.
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/infoDaemon_OrphanedMids-request-1-0-0-example.json
 .. _`OrphanedMids response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/infoDaemon_OrphanedMids-response-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/infoDaemon_OrphanedMids-response-1-0-0-example.json
+.. _`Reset request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/infoDaemon_Reset-request-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/infoDaemon_Reset-request-1-0-0-example.json
+.. _`Reset response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/infoDaemon_Reset-response-1-0-0.json
+.. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/infoDaemon_Reset-response-1-0-0-example.json
 .. _`SetMidMetaData request v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/infoDaemon_SetMidMetaData-request-1-0-0.json
 .. __: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/iqrf/examples/infoDaemon_SetMidMetaData-request-1-0-0-example.json
 .. _`SetMidMetaData response v1-0-0`: https://apidocs.iqrf.org/iqrf-gateway-daemon/v230/json/#iqrf/infoDaemon_SetMidMetaData-response-1-0-0.json
