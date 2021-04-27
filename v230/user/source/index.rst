@@ -8,6 +8,12 @@ for building IQRF Gateways. Together they form ready-to-use solution. Components
 extended or added based on the project requirements. All components are licenced under
 Apache Licence 2.0 and can be used for commercial purposes.
 
+Acknowledgement
+---------------
+
+This project has been made possible with a government grant by means of 
+`the Ministry of Industry and Trade of the Czech Republic`_ in `the TRIO program`_.
+
 Contents:
 
 .. toctree::
@@ -37,3 +43,6 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
+
+.. _`the Ministry of Industry and Trade of the Czech Republic`: https://www.mpo.cz/
+.. _`the TRIO program`: https://starfos.tacr.cz/cs/project/FV40132
