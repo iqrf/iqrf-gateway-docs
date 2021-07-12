@@ -19,7 +19,7 @@ underlying functionality as well as the APIs may change in future releases.
 Add IQRF Gateway repository
 ###########################
 
-`https://repos.iqrf.org`_
+**Follow** the web guide at `https://repos.iqrf.org`_.
 
 Stable
 ------
@@ -30,100 +30,23 @@ Stable
 - iqrf-gateway-daemon_2.3.*_armhf.deb
 - iqrf-gateway-daemon_2.3.*_armel.deb
 
-Testing (Beta)
---------------
+Testing (release candidates)
+----------------------------
+
+- iqrf-gateway-daemon_2.3.0~rc*_amd64.deb
+- iqrf-gateway-daemon_2.3.0~rc*_i386.deb
+- iqrf-gateway-daemon_2.3.0~rc*_arm64.deb
+- iqrf-gateway-daemon_2.3.0~rc*_armhf.deb
+- iqrf-gateway-daemon_2.3.0~rc*_armel.deb
+
+Devel (alpha, beta)
+-------------------
 
 - iqrf-gateway-daemon_2.4.0-*_amd64.deb
 - iqrf-gateway-daemon_2.4.0-*_i386.deb
 - iqrf-gateway-daemon_2.4.0-*_arm64.deb
 - iqrf-gateway-daemon_2.4.0-*_armhf.deb
 - iqrf-gateway-daemon_2.4.0-*_armel.deb
-
-For Debian, UbiLinux, Raspbian, Armbian
----------------------------------------
-
-Buster 10
-+++++++++
-- Stable
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/debian buster stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-- Testing (Beta)
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/debian buster stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-Stretch 9
-+++++++++
-- Stable
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/debian stretch stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-- Testing (Beta)
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/debian stretch stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-For Ubuntu
-----------
-
-Bionic 18.04
-++++++++++++
-- Stable
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu bionic stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-- Testing (Beta)
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu bionic stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-Xenial 16.04
-++++++++++++
-- Stable
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu xenial stable" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
-
-- Testing (Beta)
-
-.. code-block:: bash
-
-	sudo apt-get install dirmngr apt-transport-https
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9C076FCC7AB8F2E43C2AB0E73241B9B7B4BD8F8E
-	echo "deb https://repos.iqrf.org/ubuntu xenial stable testing" | sudo tee -a /etc/apt/sources.list.d/iqrf.list
-	sudo apt-get update
 
 Stop and disable the daemon v1
 ##############################
@@ -169,8 +92,6 @@ Direct links
 Packages and tarballs for download.
 
 - https://dl.iqrf.org/iqrf-gateway-daemon/buster
-- https://dl.iqrf.org/iqrf-gateway-daemon/stretch
 - https://dl.iqrf.org/iqrf-gateway-daemon/bionic
-- https://dl.iqrf.org/iqrf-gateway-daemon/xenial
 
 .. _`https://repos.iqrf.org`: https://repos.iqrf.org

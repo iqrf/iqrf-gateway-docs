@@ -7,20 +7,20 @@ Releases
 iqrf-gateway-daemon
 +++++++++++++++++++
 
-v2.4.x (Q1/2021)
+v2.4.x (Q1/2022)
 
  * Adding lite DB to store network and devices information
- * Adding full support of JS drivers from IQRF repository
- * Adding component for handling values from standard devices
- * Adding IQMESH service for OTA and network maintenance
+ * Adding smart scheduler for IQRF Sensors
+ * Adding component for handling values from IQRF Sensors
  * Adding unit and API tests
- * Improving daemon scheduler and logging
+ * Improving JSON schemas
 
 iqrf-gateway-webapp
 +++++++++++++++++++
 
-v2.3.x (Q1/2021)
+v2.4.x (Q1/2022)
 
- * Adding support for IQRF OS upload
- * Adding support for Network/ModemManager and VPN configuration
+ * Improving Standard manager
+ * Adding support for LTE, Modem manager
+ * Adding integration and API tests
  * Adding widgets and hints for better orientation

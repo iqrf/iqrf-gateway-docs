@@ -87,7 +87,7 @@ Why v2
 .. _`IQRF Generic`: daemon-api.html#iqrf-generic
 .. _`Webapp`: introduction.html#iqrf-gw-webapp
 .. _`WebSocket`: https://en.wikipedia.org/wiki/WebSocket
-.. _`IQube`: https://docs.iqrf.org/iqd-gw-01
+.. _`IQube`: https://docs.iqrf.org/iqube
 .. _`Axon`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
 .. _`examples and reference apps`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples
 .. _`support`: support.html

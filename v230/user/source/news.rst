@@ -12,6 +12,11 @@ Known issues
 Documentation
 -------------
 
+ * Updating news, roadmap and daemon install guide
+ * New stable versions Dv2.3.6 and Wv2.3.0 available
+
+ -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 12 Jul 2021 14:05:00 +0100
+
  * Adding Webapp CLI description
  * Updating news and roadmap
 
@@ -34,6 +39,28 @@ Documentation
 Latest daemon
 -------------
 
+iqrf-gateway-daemon (2.3.6) stable; urgency=medium
+
+ * `Changelog daemon 2.3.6`_
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 08 Jul 2021 16:35:00 +0100
+
+.. _`Changelog daemon 2.3.6`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.6/debian/changelog#L1
+
+Latest webapp
+-------------
+
+iqrf-gateway-webapp (2.3.0) stable; urgency=medium
+
+ * `Changelog webapp 2.3.0`_
+
+ -- Roman Ondráček <roman.ondracek@iqrf.com>  Thu, 08 Jul 2021 16:25:00 +0100
+
+.. _`Changelog webapp 2.3.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.3.0/debian/changelog#L1
+
+Former daemon versions
+----------------------
+
 iqrf-gateway-daemon (2.3.5) stable; urgency=medium
 
  * `Changelog daemon 2.3.5`_
@@ -41,20 +68,6 @@ iqrf-gateway-daemon (2.3.5) stable; urgency=medium
  -- Karel Hanák <karel.hanak@iqrf.org>  Fri, 08 Jan 2021 09:48:46 +0100
 
 .. _`Changelog daemon 2.3.5`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.5/debian/changelog#L1
-
-Latest webapp
--------------
-
-iqrf-gateway-webapp (2.2.3) stable; urgency=medium
-
- * `Changelog webapp 2.2.3`_
-
- -- Karel Hanák <karel.hanak@iqrf.org>  Thu, 17 Dec 2020 17:13:05 +0100
-
-.. _`Changelog webapp 2.2.3`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.3/debian/changelog#L1
-
-Former daemon versions
-----------------------
 
 iqrf-gateway-daemon (2.3.4) stable; urgency=medium
 
@@ -95,22 +108,6 @@ iqrf-gateway-daemon (2.3.0) stable; urgency=medium
  -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Sun, 25 Oct 2020 23:15:00 +0100
 
 .. _`Changelog daemon 2.3.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0/debian/changelog#L1
-
-iqrf-gateway-daemon (2.3.0~rc2) testing; urgency=medium
-
- * `Changelog daemon 2.3.0~rc2`_
-
- -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Fri, 16 Oct 2020 22:00:00 +0200
-
-.. _`Changelog daemon 2.3.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0-rc2/debian/changelog#L1
-
-iqrf-gateway-daemon (2.3.0~rc1) testing; urgency=medium
-
- * `Changelog daemon 2.3.0~rc1`_
-
- -- Rostislav Spinar <rostislav.spinar@iqrf.com>  Mon, 05 Oct 2020 13:30:00 +0200
-
-.. _`Changelog daemon 2.3.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/-/blob/v2.3.0-rc1/debian/changelog#L1
 
 iqrf-gateway-daemon (2.2.2) stable; urgency=medium
  
@@ -332,6 +329,62 @@ iqrf-gateway-daemon (2.0.0-rc) testing; urgency=medium
 Former webapp versions
 ----------------------
 
+iqrf-gateway-webapp (2.2.9) stable; urgency=medium
+
+ * `Changelog webapp 2.2.9`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Mon, 08 Mar 2021 10:53:46 +0100
+
+.. _`Changelog webapp 2.2.9`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.9/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.8) stable; urgency=medium
+
+ * `Changelog webapp 2.2.8`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Wed, 03 Mar 2021 18:33:31 +0100
+
+.. _`Changelog webapp 2.2.8`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.8/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.7) stable; urgency=medium
+
+ * `Changelog webapp 2.2.7`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Wed, 03 Mar 2021 13:57:21 +0100
+
+.. _`Changelog webapp 2.2.7`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.7/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.6) stable; urgency=medium
+
+ * `Changelog webapp 2.2.6`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Thu, 18 Feb 2021 16:04:31 +0100
+
+.. _`Changelog webapp 2.2.6`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.6/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.5) stable; urgency=medium
+
+ * `Changelog webapp 2.2.5`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Mon, 08 Feb 2021 14:41:59 +0100
+
+.. _`Changelog webapp 2.2.5`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.5/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.4) stable; urgency=medium
+
+ * `Changelog webapp 2.2.4`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Fri, 29 Jan 2021 09:36:51 +0100
+
+.. _`Changelog webapp 2.2.4`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.4/debian/changelog#L1
+
+iqrf-gateway-webapp (2.2.3) stable; urgency=medium
+
+ * `Changelog webapp 2.2.3`_
+
+ -- Karel Hanák <karel.hanak@iqrf.org>  Thu, 17 Dec 2020 17:13:05 +0100
+
+.. _`Changelog webapp 2.2.3`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.3/debian/changelog#L1
+
 iqrf-gateway-webapp (2.2.2) stable; urgency=medium
 
  * `Changelog webapp 2.2.2`_
@@ -356,22 +409,6 @@ iqrf-gateway-webapp (2.2.0) stable; urgency=medium
 
 .. _`Changelog webapp 2.2.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0/debian/changelog#L1
 
-iqrf-gateway-webapp (2.2.0-rc2) stable; urgency=medium
-
- * `Changelog webapp 2.2.0~rc2`_
-
- -- Karel Hanak <karel.hanak@iqrf.com>  Sat, 14 Nov 2020 16:36:26 +0100
-
-.. _`Changelog webapp 2.2.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc2/debian/changelog#L1
-
-iqrf-gateway-webapp (2.2.0-rc1) stable; urgency=medium
-
- * `Changelog webapp 2.2.0~rc1`_
-
- -- Karel Hanak <karel.hanak@iqrf.com>  Fri, 13 Nov 2020 18:50:54 +0100
-
-.. _`Changelog webapp 2.2.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.2.0-rc1/debian/changelog#L1
-
 iqrf-gateway-webapp (2.1.0) stable; urgency=medium
 
  * `Changelog webapp 2.1.0`_
@@ -379,30 +416,6 @@ iqrf-gateway-webapp (2.1.0) stable; urgency=medium
  -- Roman Ondracek <roman.ondracek@iqrf.com>  Sun, 25 Oct 2020 11:25:00 +0100
 
 .. _`Changelog webapp 2.1.0`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0/debian/changelog#L1
-
-iqrf-gateway-webapp (2.1.0~rc3) testing; urgency=medium
-
- * `Changelog webapp 2.1.0~rc3`_
-
- -- Roman Ondracek <roman.ondracek@iqrf.com>  Wed, 14 Oct 2020 01:55:00 +0200
-
-.. _`Changelog webapp 2.1.0~rc3`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc3/debian/changelog#L1
-
-iqrf-gateway-webapp (2.1.0~rc2) testing; urgency=medium
-
- * `Changelog webapp 2.1.0~rc2`_
-
- -- Roman Ondracek <roman.ondracek@iqrf.com>  Fri, 09 Oct 2020 00:15:00 +0200
-
-.. _`Changelog webapp 2.1.0~rc2`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc2/debian/changelog#L1
-
-iqrf-gateway-webapp (2.1.0~rc1) testing; urgency=medium
-
- * `Changelog webapp 2.1.0~rc1`_
-
- -- Roman Ondracek <roman.ondracek@iqrf.com>  Tue, 06 Oct 2020 06:10:00 +0200
-
-.. _`Changelog webapp 2.1.0~rc1`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/-/blob/v2.1.0-rc1/debian/changelog#L1
 
 iqrf-gateway-webapp (2.0.0) stable; urgency=medium
 

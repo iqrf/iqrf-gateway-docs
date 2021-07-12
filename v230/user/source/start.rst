@@ -54,15 +54,11 @@ Examples
 Give a go with the API examples in your favourite programming language
 
 - `Bash`_
-- `C#`_
-- `Java`_
 - `Python`_
 - `JavaScript`_
 - `NodeRed`_
 
 .. _`Bash`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/bash
-.. _`C#`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/c#
-.. _`Java`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/java
 .. _`Python`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/Python
 .. _`JavaScript`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/nodejs
 .. _`NodeRed`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples/node-red
