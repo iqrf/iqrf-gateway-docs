@@ -77,7 +77,7 @@ Why v2
 
   - Great inspiration on how to work with our JSON API from your favourite programming language
 
-- Long term `support`_
+- Long term support
 
   - Have trouble, write `daemon issue`_ or `webapp issue`_
 
@@ -90,6 +90,5 @@ Why v2
 .. _`IQube`: https://docs.iqrf.org/iqube
 .. _`Axon`: https://www.unipi.technology/cs/unipi-axon-s175-iqrf-p322
 .. _`examples and reference apps`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/tree/master/examples
-.. _`support`: support.html
 .. _`daemon issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-daemon/issues
 .. _`webapp issue`: https://gitlab.iqrf.org/open-source/iqrf-gateway-webapp/issues
